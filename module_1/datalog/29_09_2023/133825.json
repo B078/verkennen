@@ -1,0 +1,5 @@
+{
+    "query": "select * from weapon where price = (\"100 between 1000\");",
+    "resultcount": 0,
+    "result": []
+}

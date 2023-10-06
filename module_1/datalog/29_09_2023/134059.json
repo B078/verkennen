@@ -1,0 +1,198 @@
+{
+    "query": "select * from weapon where price between 10 and 1000\norder by price",
+    "resultcount": 32,
+    "result": [
+        {
+            "id": 1,
+            "name": "Dirk",
+            "price": 10,
+            "attack": 100
+        },
+        {
+            "id": 23,
+            "name": "Quarterstaff",
+            "price": 12,
+            "attack": 125
+        },
+        {
+            "id": 2,
+            "name": "Poniard",
+            "price": 15,
+            "attack": 150
+        },
+        {
+            "id": 44,
+            "name": "Sling",
+            "price": 15,
+            "attack": 115
+        },
+        {
+            "id": 3,
+            "name": "Rondel",
+            "price": 28,
+            "attack": 200
+        },
+        {
+            "id": 4,
+            "name": "Dagger",
+            "price": 50,
+            "attack": 250
+        },
+        {
+            "id": 5,
+            "name": "Anelace",
+            "price": 70,
+            "attack": 300
+        },
+        {
+            "id": 30,
+            "name": "Pike",
+            "price": 100,
+            "attack": 325
+        },
+        {
+            "id": 6,
+            "name": "Baselard",
+            "price": 110,
+            "attack": 425
+        },
+        {
+            "id": 7,
+            "name": "Cinquedea",
+            "price": 130,
+            "attack": 450
+        },
+        {
+            "id": 8,
+            "name": "Stiletto",
+            "price": 150,
+            "attack": 500
+        },
+        {
+            "id": 31,
+            "name": "Pitchfork",
+            "price": 150,
+            "attack": 400
+        },
+        {
+            "id": 24,
+            "name": "Club",
+            "price": 200,
+            "attack": 515
+        },
+        {
+            "id": 41,
+            "name": "Tomahawk",
+            "price": 210,
+            "attack": 225
+        },
+        {
+            "id": 9,
+            "name": "Machete",
+            "price": 300,
+            "attack": 725
+        },
+        {
+            "id": 11,
+            "name": "Shortsword",
+            "price": 300,
+            "attack": 700
+        },
+        {
+            "id": 42,
+            "name": "Ono",
+            "price": 310,
+            "attack": 750
+        },
+        {
+            "id": 12,
+            "name": "Falchion",
+            "price": 320,
+            "attack": 755
+        },
+        {
+            "id": 13,
+            "name": "Flamberge",
+            "price": 430,
+            "attack": 875
+        },
+        {
+            "id": 32,
+            "name": "Lance",
+            "price": 500,
+            "attack": 1000
+        },
+        {
+            "id": 25,
+            "name": "Mace",
+            "price": 520,
+            "attack": 1075
+        },
+        {
+            "id": 45,
+            "name": "bow",
+            "price": 525,
+            "attack": 900
+        },
+        {
+            "id": 10,
+            "name": "Katara",
+            "price": 550,
+            "attack": 925
+        },
+        {
+            "id": 33,
+            "name": "Swordstaff",
+            "price": 575,
+            "attack": 1100
+        },
+        {
+            "id": 14,
+            "name": "Cutlass",
+            "price": 620,
+            "attack": 1180
+        },
+        {
+            "id": 26,
+            "name": "War Hammer",
+            "price": 700,
+            "attack": 1580
+        },
+        {
+            "id": 15,
+            "name": "Spatha",
+            "price": 735,
+            "attack": 1400
+        },
+        {
+            "id": 34,
+            "name": "Glaive",
+            "price": 780,
+            "attack": 1505
+        },
+        {
+            "id": 46,
+            "name": "Longbow",
+            "price": 780,
+            "attack": 1500
+        },
+        {
+            "id": 35,
+            "name": "Partisan",
+            "price": 945,
+            "attack": 1800
+        },
+        {
+            "id": 16,
+            "name": "Rapier",
+            "price": 965,
+            "attack": 1770
+        },
+        {
+            "id": 17,
+            "name": "Claymore",
+            "price": 1000,
+            "attack": 1950
+        }
+    ]
+}

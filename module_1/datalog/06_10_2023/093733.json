@@ -1,0 +1,114 @@
+{
+    "query": "select name, (select count(*) from npc where npc.id = city.id)\nas nrcitizens from city\n",
+    "resultcount": 27,
+    "result": [
+        {
+            "name": "Knael",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Troy",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Pacifa",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Onker",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Quiro",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Antsor",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Harbor",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Montse",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Laeks",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Vermon",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Nordberg",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Charcol",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Droins",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Mordor",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Unterdages",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Drakegor",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Xantr",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Yester",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Tomparf",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Preqeu",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Hansora",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Ismir",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Sempre City",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Nayak",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Umprivaklo",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Fjitsur",
+            "nrcitizens": 1
+        },
+        {
+            "name": "Soyaki",
+            "nrcitizens": 1
+        }
+    ]
+}

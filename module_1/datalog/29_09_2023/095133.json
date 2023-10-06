@@ -1,0 +1,321 @@
+{
+    "query": "select type from animal \n\n",
+    "resultcount": 105,
+    "result": [
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Wolf"
+        },
+        {
+            "type": "Wolf"
+        },
+        {
+            "type": "Wolf"
+        },
+        {
+            "type": "Wolf"
+        },
+        {
+            "type": "Wolf"
+        },
+        {
+            "type": "Wolf"
+        },
+        {
+            "type": "Wolf"
+        },
+        {
+            "type": "Wolf"
+        },
+        {
+            "type": "Wolf"
+        },
+        {
+            "type": "Wolf"
+        },
+        {
+            "type": "Wolf"
+        },
+        {
+            "type": "Wolf"
+        },
+        {
+            "type": "Wolf"
+        },
+        {
+            "type": "Wolf"
+        },
+        {
+            "type": "Wolf"
+        },
+        {
+            "type": "Wolf"
+        },
+        {
+            "type": "Bear"
+        },
+        {
+            "type": "Bear"
+        },
+        {
+            "type": "Bear"
+        },
+        {
+            "type": "Bear"
+        },
+        {
+            "type": "Bear"
+        },
+        {
+            "type": "Bear"
+        },
+        {
+            "type": "Bear"
+        },
+        {
+            "type": "Bear"
+        },
+        {
+            "type": "Bear"
+        },
+        {
+            "type": "Bear"
+        },
+        {
+            "type": "Bear"
+        },
+        {
+            "type": "Bear"
+        },
+        {
+            "type": "Bear"
+        },
+        {
+            "type": "Bear"
+        },
+        {
+            "type": "Eagle"
+        },
+        {
+            "type": "Eagle"
+        },
+        {
+            "type": "Eagle"
+        },
+        {
+            "type": "Eagle"
+        },
+        {
+            "type": "Eagle"
+        },
+        {
+            "type": "Eagle"
+        },
+        {
+            "type": "Eagle"
+        },
+        {
+            "type": "Eagle"
+        },
+        {
+            "type": "Eagle"
+        },
+        {
+            "type": "Eagle"
+        },
+        {
+            "type": "Eagle"
+        },
+        {
+            "type": "Eagle"
+        },
+        {
+            "type": "Eagle"
+        },
+        {
+            "type": "Eagle"
+        },
+        {
+            "type": "Eagle"
+        },
+        {
+            "type": "Eagle"
+        },
+        {
+            "type": "Eagle"
+        },
+        {
+            "type": "Tiger"
+        },
+        {
+            "type": "Tiger"
+        },
+        {
+            "type": "Tiger"
+        },
+        {
+            "type": "Tiger"
+        },
+        {
+            "type": "Tiger"
+        },
+        {
+            "type": "Tiger"
+        },
+        {
+            "type": "Tiger"
+        },
+        {
+            "type": "Sea Snake"
+        },
+        {
+            "type": "Sea Snake"
+        },
+        {
+            "type": "Sea Snake"
+        },
+        {
+            "type": "Sea Snake"
+        },
+        {
+            "type": "Sea Snake"
+        },
+        {
+            "type": "Sea Snake"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        },
+        {
+            "type": "Giant Rat"
+        }
+    ]
+}

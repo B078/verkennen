@@ -1,0 +1,5 @@
+{
+    "query": "select * from teachers where infix = null\n",
+    "resultcount": 0,
+    "result": []
+}

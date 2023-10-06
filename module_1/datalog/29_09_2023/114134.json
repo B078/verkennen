@@ -1,0 +1,588 @@
+{
+    "query": "select profession  from npc",
+    "resultcount": 194,
+    "result": [
+        {
+            "profession": "Boss"
+        },
+        {
+            "profession": "Boss"
+        },
+        {
+            "profession": "Boss"
+        },
+        {
+            "profession": "Boss"
+        },
+        {
+            "profession": "Boss"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        }
+    ]
+}

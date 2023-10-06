@@ -1,0 +1,48 @@
+{
+    "query": "select * from weapon where attack between 300 and 600\norder by attack",
+    "resultcount": 7,
+    "result": [
+        {
+            "id": 5,
+            "name": "Anelace",
+            "price": 70,
+            "attack": 300
+        },
+        {
+            "id": 30,
+            "name": "Pike",
+            "price": 100,
+            "attack": 325
+        },
+        {
+            "id": 31,
+            "name": "Pitchfork",
+            "price": 150,
+            "attack": 400
+        },
+        {
+            "id": 6,
+            "name": "Baselard",
+            "price": 110,
+            "attack": 425
+        },
+        {
+            "id": 7,
+            "name": "Cinquedea",
+            "price": 130,
+            "attack": 450
+        },
+        {
+            "id": 8,
+            "name": "Stiletto",
+            "price": 150,
+            "attack": 500
+        },
+        {
+            "id": 24,
+            "name": "Club",
+            "price": 200,
+            "attack": 515
+        }
+    ]
+}

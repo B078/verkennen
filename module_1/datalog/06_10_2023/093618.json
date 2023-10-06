@@ -1,0 +1,5 @@
+{
+    "query": "select * from npc where city = 6",
+    "resultcount": 0,
+    "result": []
+}

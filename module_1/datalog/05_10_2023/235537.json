@@ -1,0 +1,426 @@
+{
+    "query": "Select animal.type, city.name from animal \nleft join city on animal.id = city.id\n\n",
+    "resultcount": 105,
+    "result": [
+        {
+            "type": "Sheep",
+            "name": "Knael"
+        },
+        {
+            "type": "Sheep",
+            "name": "Troy"
+        },
+        {
+            "type": "Sheep",
+            "name": "Pacifa"
+        },
+        {
+            "type": "Sheep",
+            "name": "Onker"
+        },
+        {
+            "type": "Sheep",
+            "name": "Quiro"
+        },
+        {
+            "type": "Sheep",
+            "name": "Antsor"
+        },
+        {
+            "type": "Sheep",
+            "name": "Harbor"
+        },
+        {
+            "type": "Sheep",
+            "name": "Montse"
+        },
+        {
+            "type": "Sheep",
+            "name": "Laeks"
+        },
+        {
+            "type": "Sheep",
+            "name": "Vermon"
+        },
+        {
+            "type": "Sheep",
+            "name": "Nordberg"
+        },
+        {
+            "type": "Sheep",
+            "name": "Charcol"
+        },
+        {
+            "type": "Sheep",
+            "name": "Droins"
+        },
+        {
+            "type": "Sheep",
+            "name": "Mordor"
+        },
+        {
+            "type": "Sheep",
+            "name": "Unterdages"
+        },
+        {
+            "type": "Sheep",
+            "name": "Drakegor"
+        },
+        {
+            "type": "Sheep",
+            "name": "Xantr"
+        },
+        {
+            "type": "Sheep",
+            "name": "Yester"
+        },
+        {
+            "type": "Sheep",
+            "name": "Tomparf"
+        },
+        {
+            "type": "Sheep",
+            "name": "Preqeu"
+        },
+        {
+            "type": "Sheep",
+            "name": "Hansora"
+        },
+        {
+            "type": "Sheep",
+            "name": "Ismir"
+        },
+        {
+            "type": "Sheep",
+            "name": "Sempre City"
+        },
+        {
+            "type": "Wolf",
+            "name": "Nayak"
+        },
+        {
+            "type": "Wolf",
+            "name": "Umprivaklo"
+        },
+        {
+            "type": "Wolf",
+            "name": "Fjitsur"
+        },
+        {
+            "type": "Wolf",
+            "name": "Soyaki"
+        },
+        {
+            "type": "Wolf",
+            "name": null
+        },
+        {
+            "type": "Wolf",
+            "name": null
+        },
+        {
+            "type": "Wolf",
+            "name": null
+        },
+        {
+            "type": "Wolf",
+            "name": null
+        },
+        {
+            "type": "Wolf",
+            "name": null
+        },
+        {
+            "type": "Wolf",
+            "name": null
+        },
+        {
+            "type": "Wolf",
+            "name": null
+        },
+        {
+            "type": "Wolf",
+            "name": null
+        },
+        {
+            "type": "Wolf",
+            "name": null
+        },
+        {
+            "type": "Wolf",
+            "name": null
+        },
+        {
+            "type": "Wolf",
+            "name": null
+        },
+        {
+            "type": "Wolf",
+            "name": null
+        },
+        {
+            "type": "Bear",
+            "name": null
+        },
+        {
+            "type": "Bear",
+            "name": null
+        },
+        {
+            "type": "Bear",
+            "name": null
+        },
+        {
+            "type": "Bear",
+            "name": null
+        },
+        {
+            "type": "Bear",
+            "name": null
+        },
+        {
+            "type": "Bear",
+            "name": null
+        },
+        {
+            "type": "Bear",
+            "name": null
+        },
+        {
+            "type": "Bear",
+            "name": null
+        },
+        {
+            "type": "Bear",
+            "name": null
+        },
+        {
+            "type": "Bear",
+            "name": null
+        },
+        {
+            "type": "Bear",
+            "name": null
+        },
+        {
+            "type": "Bear",
+            "name": null
+        },
+        {
+            "type": "Bear",
+            "name": null
+        },
+        {
+            "type": "Bear",
+            "name": null
+        },
+        {
+            "type": "Eagle",
+            "name": null
+        },
+        {
+            "type": "Eagle",
+            "name": null
+        },
+        {
+            "type": "Eagle",
+            "name": null
+        },
+        {
+            "type": "Eagle",
+            "name": null
+        },
+        {
+            "type": "Eagle",
+            "name": null
+        },
+        {
+            "type": "Eagle",
+            "name": null
+        },
+        {
+            "type": "Eagle",
+            "name": null
+        },
+        {
+            "type": "Eagle",
+            "name": null
+        },
+        {
+            "type": "Eagle",
+            "name": null
+        },
+        {
+            "type": "Eagle",
+            "name": null
+        },
+        {
+            "type": "Eagle",
+            "name": null
+        },
+        {
+            "type": "Eagle",
+            "name": null
+        },
+        {
+            "type": "Eagle",
+            "name": null
+        },
+        {
+            "type": "Eagle",
+            "name": null
+        },
+        {
+            "type": "Eagle",
+            "name": null
+        },
+        {
+            "type": "Eagle",
+            "name": null
+        },
+        {
+            "type": "Eagle",
+            "name": null
+        },
+        {
+            "type": "Tiger",
+            "name": null
+        },
+        {
+            "type": "Tiger",
+            "name": null
+        },
+        {
+            "type": "Tiger",
+            "name": null
+        },
+        {
+            "type": "Tiger",
+            "name": null
+        },
+        {
+            "type": "Tiger",
+            "name": null
+        },
+        {
+            "type": "Tiger",
+            "name": null
+        },
+        {
+            "type": "Tiger",
+            "name": null
+        },
+        {
+            "type": "Sea Snake",
+            "name": null
+        },
+        {
+            "type": "Sea Snake",
+            "name": null
+        },
+        {
+            "type": "Sea Snake",
+            "name": null
+        },
+        {
+            "type": "Sea Snake",
+            "name": null
+        },
+        {
+            "type": "Sea Snake",
+            "name": null
+        },
+        {
+            "type": "Sea Snake",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        },
+        {
+            "type": "Giant Rat",
+            "name": null
+        }
+    ]
+}

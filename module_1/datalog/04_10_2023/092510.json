@@ -1,0 +1,9 @@
+{
+    "query": "select sum(id) from animal",
+    "resultcount": 1,
+    "result": [
+        {
+            "sum(id)": 5599
+        }
+    ]
+}

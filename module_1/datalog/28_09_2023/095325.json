@@ -1,0 +1,60 @@
+{
+    "query": "select distinct price  from armor",
+    "resultcount": 18,
+    "result": [
+        {
+            "price": 10
+        },
+        {
+            "price": 15
+        },
+        {
+            "price": 100
+        },
+        {
+            "price": 320
+        },
+        {
+            "price": 515
+        },
+        {
+            "price": 875
+        },
+        {
+            "price": 1125
+        },
+        {
+            "price": 2100
+        },
+        {
+            "price": 2950
+        },
+        {
+            "price": 3900
+        },
+        {
+            "price": 5000
+        },
+        {
+            "price": 8325
+        },
+        {
+            "price": 1250
+        },
+        {
+            "price": 4000
+        },
+        {
+            "price": 8150
+        },
+        {
+            "price": 9950
+        },
+        {
+            "price": 15000
+        },
+        {
+            "price": 0
+        }
+    ]
+}

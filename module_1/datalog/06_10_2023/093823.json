@@ -1,0 +1,141 @@
+{
+    "query": "select id, name, (select count(*) from npc where npc.city = city.id)\nas nrcitizens from city\n",
+    "resultcount": 27,
+    "result": [
+        {
+            "id": 1,
+            "name": "Knael",
+            "nrcitizens": 7
+        },
+        {
+            "id": 2,
+            "name": "Troy",
+            "nrcitizens": 7
+        },
+        {
+            "id": 3,
+            "name": "Pacifa",
+            "nrcitizens": 8
+        },
+        {
+            "id": 4,
+            "name": "Onker",
+            "nrcitizens": 7
+        },
+        {
+            "id": 5,
+            "name": "Quiro",
+            "nrcitizens": 7
+        },
+        {
+            "id": 6,
+            "name": "Antsor",
+            "nrcitizens": 7
+        },
+        {
+            "id": 7,
+            "name": "Harbor",
+            "nrcitizens": 7
+        },
+        {
+            "id": 8,
+            "name": "Montse",
+            "nrcitizens": 7
+        },
+        {
+            "id": 9,
+            "name": "Laeks",
+            "nrcitizens": 7
+        },
+        {
+            "id": 10,
+            "name": "Vermon",
+            "nrcitizens": 7
+        },
+        {
+            "id": 11,
+            "name": "Nordberg",
+            "nrcitizens": 8
+        },
+        {
+            "id": 12,
+            "name": "Charcol",
+            "nrcitizens": 7
+        },
+        {
+            "id": 13,
+            "name": "Droins",
+            "nrcitizens": 7
+        },
+        {
+            "id": 14,
+            "name": "Mordor",
+            "nrcitizens": 7
+        },
+        {
+            "id": 15,
+            "name": "Unterdages",
+            "nrcitizens": 7
+        },
+        {
+            "id": 16,
+            "name": "Drakegor",
+            "nrcitizens": 7
+        },
+        {
+            "id": 17,
+            "name": "Xantr",
+            "nrcitizens": 7
+        },
+        {
+            "id": 18,
+            "name": "Yester",
+            "nrcitizens": 8
+        },
+        {
+            "id": 19,
+            "name": "Tomparf",
+            "nrcitizens": 7
+        },
+        {
+            "id": 20,
+            "name": "Preqeu",
+            "nrcitizens": 8
+        },
+        {
+            "id": 21,
+            "name": "Hansora",
+            "nrcitizens": 7
+        },
+        {
+            "id": 22,
+            "name": "Ismir",
+            "nrcitizens": 7
+        },
+        {
+            "id": 23,
+            "name": "Sempre City",
+            "nrcitizens": 7
+        },
+        {
+            "id": 24,
+            "name": "Nayak",
+            "nrcitizens": 7
+        },
+        {
+            "id": 25,
+            "name": "Umprivaklo",
+            "nrcitizens": 8
+        },
+        {
+            "id": 26,
+            "name": "Fjitsur",
+            "nrcitizens": 7
+        },
+        {
+            "id": 27,
+            "name": "Soyaki",
+            "nrcitizens": 7
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "query": "select * , max(price) from weapon",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 40,
+            "name": "Halberd",
+            "price": 2850,
+            "attack": 3500,
+            "max(price)": 2850
+        }
+    ]
+}

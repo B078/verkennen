@@ -1,0 +1,5 @@
+{
+    "query": " select * from creature where name ",
+    "resultcount": 0,
+    "result": []
+}

@@ -1,0 +1,5 @@
+{
+    "query": "select *, (select name from region where region.id = city.region) as region_name from city where region in (3.4)",
+    "resultcount": 0,
+    "result": []
+}

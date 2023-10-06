@@ -1,0 +1,83 @@
+{
+    "query": "select * from courses\n",
+    "resultcount": 11,
+    "result": [
+        {
+            "id": 1,
+            "name": "Bootcamp",
+            "code": "BC",
+            "has_exame": 0,
+            "is_avo": 0
+        },
+        {
+            "id": 2,
+            "name": "Programmeren",
+            "code": "PROG",
+            "has_exame": 1,
+            "is_avo": 0
+        },
+        {
+            "id": 3,
+            "name": "Verkennen",
+            "code": "VER",
+            "has_exame": 0,
+            "is_avo": 0
+        },
+        {
+            "id": 4,
+            "name": "Skills",
+            "code": "SKILLS",
+            "has_exame": 1,
+            "is_avo": 0
+        },
+        {
+            "id": 5,
+            "name": "Studie Loopbaan Begeleiding",
+            "code": "SLB",
+            "has_exame": 0,
+            "is_avo": 0
+        },
+        {
+            "id": 6,
+            "name": "Rekenen",
+            "code": "REK",
+            "has_exame": 1,
+            "is_avo": 1
+        },
+        {
+            "id": 7,
+            "name": "Nederlands",
+            "code": "NED",
+            "has_exame": 1,
+            "is_avo": 1
+        },
+        {
+            "id": 8,
+            "name": "Burgerschap",
+            "code": "BS",
+            "has_exame": 1,
+            "is_avo": 1
+        },
+        {
+            "id": 9,
+            "name": "Engels",
+            "code": "ENG",
+            "has_exame": 1,
+            "is_avo": 1
+        },
+        {
+            "id": 10,
+            "name": "Basis ICT",
+            "code": "BICT",
+            "has_exame": 0,
+            "is_avo": 0
+        },
+        {
+            "id": 11,
+            "name": "Keuzedeel",
+            "code": "KEUZE",
+            "has_exame": 1,
+            "is_avo": 0
+        }
+    ]
+}

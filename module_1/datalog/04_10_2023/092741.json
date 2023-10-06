@@ -1,0 +1,9 @@
+{
+    "query": "select count(person) from npc",
+    "resultcount": 1,
+    "result": [
+        {
+            "count(person)": 194
+        }
+    ]
+}

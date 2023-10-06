@@ -1,0 +1,5 @@
+{
+    "query": "select * from quest where gold is null\n",
+    "resultcount": 0,
+    "result": []
+}

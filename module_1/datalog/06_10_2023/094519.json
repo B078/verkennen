@@ -1,0 +1,31 @@
+{
+    "query": "select id,name,(1) as cities from region\n",
+    "resultcount": 5,
+    "result": [
+        {
+            "id": 1,
+            "name": "Gursoy Island",
+            "cities": 1
+        },
+        {
+            "id": 2,
+            "name": "Sempre",
+            "cities": 1
+        },
+        {
+            "id": 3,
+            "name": "South Groval",
+            "cities": 1
+        },
+        {
+            "id": 4,
+            "name": "North Groval",
+            "cities": 1
+        },
+        {
+            "id": 5,
+            "name": "Breach",
+            "cities": 1
+        }
+    ]
+}

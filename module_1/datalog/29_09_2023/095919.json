@@ -1,0 +1,190 @@
+{
+    "query": "select * from animal where type = \"Sheep\"\n",
+    "resultcount": 23,
+    "result": [
+        {
+            "id": 1,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 2,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 3,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 4,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 5,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 6,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 7,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 1,
+            "owner": 2
+        },
+        {
+            "id": 8,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 9,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 5,
+            "loyalty": 2,
+            "owner": 7
+        },
+        {
+            "id": 10,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 11,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 12,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 13,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 14,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 15,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 16,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 17,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 18,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 19,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 20,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 21,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 22,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 23,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        }
+    ]
+}

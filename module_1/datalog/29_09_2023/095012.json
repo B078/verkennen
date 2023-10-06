@@ -1,0 +1,14 @@
+{
+    "query": "select * from quest where gold = 0 \n",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 57,
+            "title": "The lost search",
+            "experience": 2590,
+            "gold": 0,
+            "publisher": 84,
+            "holder": 0
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "query": "select * from weapon order by price\nlimit 5;",
+    "resultcount": 5,
+    "result": [
+        {
+            "id": 48,
+            "name": "Shell Chain",
+            "price": 0,
+            "attack": 1000
+        },
+        {
+            "id": 49,
+            "name": "Soul Sword",
+            "price": 0,
+            "attack": 2200
+        },
+        {
+            "id": 50,
+            "name": "Obsidian Staff",
+            "price": 0,
+            "attack": 3500
+        },
+        {
+            "id": 51,
+            "name": "Knock-Down Hammer",
+            "price": 0,
+            "attack": 4850
+        },
+        {
+            "id": 52,
+            "name": "Axe of Terror",
+            "price": 0,
+            "attack": 6200
+        }
+    ]
+}

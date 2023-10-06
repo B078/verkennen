@@ -1,0 +1,11 @@
+{
+    "query": "select \ncount(*) as aantal_Wapens,\navg(price) as gemiddelde_prijs,\navg(attack) as gemiddelde_kracht\n from weapon\nwhere name like \"%sword%\"",
+    "resultcount": 1,
+    "result": [
+        {
+            "aantal_Wapens": 5,
+            "gemiddelde_prijs": 884.0,
+            "gemiddelde_kracht": 1949.0
+        }
+    ]
+}

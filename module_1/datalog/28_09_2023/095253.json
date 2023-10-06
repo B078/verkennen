@@ -1,0 +1,162 @@
+{
+    "query": "select distinct health from creature order by health",
+    "resultcount": 52,
+    "result": [
+        {
+            "health": 1
+        },
+        {
+            "health": 2
+        },
+        {
+            "health": 3
+        },
+        {
+            "health": 5
+        },
+        {
+            "health": 6
+        },
+        {
+            "health": 8
+        },
+        {
+            "health": 10
+        },
+        {
+            "health": 11
+        },
+        {
+            "health": 12
+        },
+        {
+            "health": 15
+        },
+        {
+            "health": 19
+        },
+        {
+            "health": 20
+        },
+        {
+            "health": 22
+        },
+        {
+            "health": 23
+        },
+        {
+            "health": 25
+        },
+        {
+            "health": 30
+        },
+        {
+            "health": 33
+        },
+        {
+            "health": 45
+        },
+        {
+            "health": 48
+        },
+        {
+            "health": 56
+        },
+        {
+            "health": 57
+        },
+        {
+            "health": 60
+        },
+        {
+            "health": 63
+        },
+        {
+            "health": 74
+        },
+        {
+            "health": 75
+        },
+        {
+            "health": 90
+        },
+        {
+            "health": 100
+        },
+        {
+            "health": 104
+        },
+        {
+            "health": 105
+        },
+        {
+            "health": 109
+        },
+        {
+            "health": 110
+        },
+        {
+            "health": 122
+        },
+        {
+            "health": 132
+        },
+        {
+            "health": 135
+        },
+        {
+            "health": 150
+        },
+        {
+            "health": 180
+        },
+        {
+            "health": 198
+        },
+        {
+            "health": 200
+        },
+        {
+            "health": 202
+        },
+        {
+            "health": 219
+        },
+        {
+            "health": 220
+        },
+        {
+            "health": 230
+        },
+        {
+            "health": 250
+        },
+        {
+            "health": 590
+        },
+        {
+            "health": 725
+        },
+        {
+            "health": 799
+        },
+        {
+            "health": 800
+        },
+        {
+            "health": 890
+        },
+        {
+            "health": 1000
+        },
+        {
+            "health": 2000
+        },
+        {
+            "health": 3000
+        },
+        {
+            "health": 4000
+        }
+    ]
+}

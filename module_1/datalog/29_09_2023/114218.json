@@ -1,0 +1,30 @@
+{
+    "query": "select distinct profession  from npc",
+    "resultcount": 8,
+    "result": [
+        {
+            "profession": "Boss"
+        },
+        {
+            "profession": "Blacksmith"
+        },
+        {
+            "profession": "Apothecary"
+        },
+        {
+            "profession": "Tailor"
+        },
+        {
+            "profession": "Innkeeper"
+        },
+        {
+            "profession": "Craftsman"
+        },
+        {
+            "profession": "Pet Trainer"
+        },
+        {
+            "profession": "Elder"
+        }
+    ]
+}

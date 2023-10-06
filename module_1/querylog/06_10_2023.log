@@ -1,0 +1,57 @@
+select name, (select count(*) from npc where npc.id = city.id)
+as nrcitizens from city; #09:33:14@rubyquest.db
+select * from npc where npc.city = 1; #09:35:21@rubyquest.db
+select * from npc where city = 1; #09:36:00@rubyquest.db
+select * from npc where city = 1; #09:36:01@rubyquest.db
+select * from npc where city = 5; #09:36:14@rubyquest.db
+select * from npc where city = 7; #09:36:16@rubyquest.db
+select * from npc where city = 6; #09:36:18@rubyquest.db
+select * from npc where city = 20; #09:36:21@rubyquest.db
+select * from npc order by city; #09:36:51@rubyquest.db
+select name, (select count(*) from npc where npc.id = city.id)
+as nrcitizens from city
+; #09:37:33@rubyquest.db
+select name, (select count(*) from npc where npc.id = city.id)
+as nrcitizens from city
+; #09:37:52@rubyquest.db
+select name, (select count(*) from npc where npc.id = city.id)
+as nrcitizens from city
+; #09:37:53@rubyquest.db
+select id, name, (select count(*) from npc where npc.id = city.id)
+as nrcitizens from city
+; #09:38:05@rubyquest.db
+select id, name, (select count(*) from npc where npc.city = city.id)
+as nrcitizens from city
+; #09:38:23@rubyquest.db
+select * from npc
+; #09:39:22@rubyquest.db
+select * from npc
+; #09:39:26@rubyquest.db
+select * from city
+; #09:42:28@rubyquest.db
+select * from region
+; #09:43:06@rubyquest.db
+select * from city
+; #09:43:14@rubyquest.db
+select * from region
+; #09:43:49@rubyquest.db
+select * from city
+; #09:44:16@rubyquest.db
+select id,name,(1) as cities from region
+; #09:45:19@rubyquest.db
+select id,name,(select count(*) from city where region.id = city.region) as cities from region
+; #09:46:13@rubyquest.db
+select * from hero; #09:47:44@rubyquest.db
+select * from person; #09:47:53@rubyquest.db
+select * from animal; #09:49:38@rubyquest.db
+select * from hero; #09:55:58@rubyquest.db
+select * from animal; #09:56:26@rubyquest.db
+select * ,(select owner from animal) as eigernaren from hero; #09:58:41@rubyquest.db
+select * ,(select owner from animal where owner = 2) as eigernaren from hero; #09:59:21@rubyquest.db
+select * from region; #10:06:04@rubyquest.db
+select *, (select name from region where region.id = city.region) as region_name from city where region in (3.4); #10:07:33@rubyquest.db
+select *, (select name from region where region.id = city.region) as region_name from city where region in (3.4); #10:07:35@rubyquest.db
+select *, (select name from region where region.id = city.region) as region_name from city where region in (3.4); #10:08:10@rubyquest.db
+select * , (select name from region where region.id = city.region) as region_name from city where region in (3.4); #10:08:16@rubyquest.db
+select  (select name from region where region.id = city.region) as region_name from city where region in (3.4); #10:08:20@rubyquest.db
+select *, (select name from region where region.id = city.region) as region_name from city where region in (3.4); #10:08:27@rubyquest.db

@@ -1,0 +1,20 @@
+select * from animal; #10:01:05@rubyquest.db
+select * from animal where defense = 2; #10:04:00@rubyquest.db
+select * from hero
+; #10:04:52@rubyquest.db
+select * from person
+; #10:06:40@rubyquest.db
+select * from quest
+; #10:06:54@rubyquest.db
+select * from creature
+; #10:07:13@rubyquest.db
+select name from armor
+; #10:07:41@rubyquest.db
+select * from weapon
+; #10:08:04@rubyquest.db
+select name , attack from weapon
+; #10:08:39@rubyquest.db
+select *  from creature
+; #10:09:00@rubyquest.db
+select name, health from creature
+; #10:09:14@rubyquest.db

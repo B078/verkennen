@@ -1,0 +1,48 @@
+{
+    "query": "select *\nfrom weapon\nwhere name like \"%d\"\n",
+    "resultcount": 7,
+    "result": [
+        {
+            "id": 2,
+            "name": "Poniard",
+            "price": 15,
+            "attack": 150
+        },
+        {
+            "id": 6,
+            "name": "Baselard",
+            "price": 110,
+            "attack": 425
+        },
+        {
+            "id": 11,
+            "name": "Shortsword",
+            "price": 300,
+            "attack": 700
+        },
+        {
+            "id": 19,
+            "name": "Broadsword",
+            "price": 1345,
+            "attack": 2545
+        },
+        {
+            "id": 22,
+            "name": "Longsword",
+            "price": 2200,
+            "attack": 3200
+        },
+        {
+            "id": 40,
+            "name": "Halberd",
+            "price": 2850,
+            "attack": 3500
+        },
+        {
+            "id": 49,
+            "name": "Soul Sword",
+            "price": 0,
+            "attack": 2200
+        }
+    ]
+}

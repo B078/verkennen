@@ -1,0 +1,27 @@
+{
+    "query": "select distinct type from animal\n",
+    "resultcount": 7,
+    "result": [
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Wolf"
+        },
+        {
+            "type": "Bear"
+        },
+        {
+            "type": "Eagle"
+        },
+        {
+            "type": "Tiger"
+        },
+        {
+            "type": "Sea Snake"
+        },
+        {
+            "type": "Giant Rat"
+        }
+    ]
+}

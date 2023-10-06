@@ -1,0 +1,846 @@
+{
+    "query": "select * from animal",
+    "resultcount": 105,
+    "result": [
+        {
+            "id": 1,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 2,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 3,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 4,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 5,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 6,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 7,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 1,
+            "owner": 2
+        },
+        {
+            "id": 8,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 9,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 5,
+            "loyalty": 2,
+            "owner": 7
+        },
+        {
+            "id": 10,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 11,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 12,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 13,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 14,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 15,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 16,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 17,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 18,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 19,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 20,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 21,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 22,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 23,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 24,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 25,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 26,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 27,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 28,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 29,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 30,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 1,
+            "owner": 10
+        },
+        {
+            "id": 31,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 32,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 33,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 34,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 35,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 36,
+            "type": "Wolf",
+            "speed": 7,
+            "defense": 6,
+            "loyalty": 4,
+            "owner": 9
+        },
+        {
+            "id": 37,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 38,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 39,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 40,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 41,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 42,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 43,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 44,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 45,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 9,
+            "loyalty": 3,
+            "owner": 3
+        },
+        {
+            "id": 46,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 47,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 48,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 49,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 50,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 51,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 52,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 53,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 54,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 55,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 56,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 57,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 58,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 59,
+            "type": "Eagle",
+            "speed": 9,
+            "defense": 3,
+            "loyalty": 9,
+            "owner": 1
+        },
+        {
+            "id": 60,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 61,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 62,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 63,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 3,
+            "loyalty": 6,
+            "owner": 4
+        },
+        {
+            "id": 64,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 65,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 66,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 67,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 68,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 69,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 70,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 71,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 72,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 73,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 74,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 75,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 76,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 77,
+            "type": "Tiger",
+            "speed": 10,
+            "defense": 9,
+            "loyalty": 3,
+            "owner": 8
+        },
+        {
+            "id": 78,
+            "type": "Sea Snake",
+            "speed": 10,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 79,
+            "type": "Sea Snake",
+            "speed": 10,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 80,
+            "type": "Sea Snake",
+            "speed": 10,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 81,
+            "type": "Sea Snake",
+            "speed": 10,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 83,
+            "type": "Sea Snake",
+            "speed": 10,
+            "defense": 8,
+            "loyalty": 10,
+            "owner": 2
+        },
+        {
+            "id": 84,
+            "type": "Sea Snake",
+            "speed": 10,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 85,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 86,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 87,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 88,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 1,
+            "owner": 5
+        },
+        {
+            "id": 89,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 90,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 91,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 92,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 93,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 94,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 8,
+            "loyalty": 3,
+            "owner": 6
+        },
+        {
+            "id": 95,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 96,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 98,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 99,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 100,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 101,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 102,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 103,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 104,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 105,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 106,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 107,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        }
+    ]
+}

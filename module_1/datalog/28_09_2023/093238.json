@@ -1,0 +1,19 @@
+{
+    "query": "select * from person where id = 4",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 4,
+            "name": "Catwoman",
+            "sex": "f",
+            "max_health": 1760,
+            "attack": 60,
+            "defense": 100,
+            "agility": 200,
+            "experience": 25700,
+            "gold": 1030,
+            "weapon": 47,
+            "armor": 2
+        }
+    ]
+}

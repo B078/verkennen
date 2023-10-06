@@ -1,0 +1,75 @@
+{
+    "query": "select name from armor\n",
+    "resultcount": 23,
+    "result": [
+        {
+            "name": "Loincloth"
+        },
+        {
+            "name": "Shirt"
+        },
+        {
+            "name": "Skin Armor"
+        },
+        {
+            "name": "Linothorax"
+        },
+        {
+            "name": "Cuirass"
+        },
+        {
+            "name": "Leather Armor"
+        },
+        {
+            "name": "Chainmail"
+        },
+        {
+            "name": "Plate Armor"
+        },
+        {
+            "name": "Bronze Armor"
+        },
+        {
+            "name": "Steel Armor"
+        },
+        {
+            "name": "Golden Armor"
+        },
+        {
+            "name": "Diamond Armor"
+        },
+        {
+            "name": "Shiny Robe"
+        },
+        {
+            "name": "Sorceress Skin"
+        },
+        {
+            "name": "Invincible Cloak"
+        },
+        {
+            "name": "Dragon Skull Armor"
+        },
+        {
+            "name": "Dragon Skin"
+        },
+        {
+            "name": "Tear of God"
+        },
+        {
+            "name": "Giant Shell"
+        },
+        {
+            "name": "Skeleton Armor"
+        },
+        {
+            "name": "Evil Aura"
+        },
+        {
+            "name": "Human Skin Armor"
+        },
+        {
+            "name": "Apocalypse Armor"
+        }
+    ]
+}

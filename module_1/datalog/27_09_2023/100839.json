@@ -1,0 +1,214 @@
+{
+    "query": "select name , attack from weapon\n",
+    "resultcount": 52,
+    "result": [
+        {
+            "name": "Dirk",
+            "attack": 100
+        },
+        {
+            "name": "Poniard",
+            "attack": 150
+        },
+        {
+            "name": "Rondel",
+            "attack": 200
+        },
+        {
+            "name": "Dagger",
+            "attack": 250
+        },
+        {
+            "name": "Anelace",
+            "attack": 300
+        },
+        {
+            "name": "Baselard",
+            "attack": 425
+        },
+        {
+            "name": "Cinquedea",
+            "attack": 450
+        },
+        {
+            "name": "Stiletto",
+            "attack": 500
+        },
+        {
+            "name": "Machete",
+            "attack": 725
+        },
+        {
+            "name": "Katara",
+            "attack": 925
+        },
+        {
+            "name": "Shortsword",
+            "attack": 700
+        },
+        {
+            "name": "Falchion",
+            "attack": 755
+        },
+        {
+            "name": "Flamberge",
+            "attack": 875
+        },
+        {
+            "name": "Cutlass",
+            "attack": 1180
+        },
+        {
+            "name": "Spatha",
+            "attack": 1400
+        },
+        {
+            "name": "Rapier",
+            "attack": 1770
+        },
+        {
+            "name": "Claymore",
+            "attack": 1950
+        },
+        {
+            "name": "Sabre",
+            "attack": 2115
+        },
+        {
+            "name": "Broadsword",
+            "attack": 2545
+        },
+        {
+            "name": "Scimitar",
+            "attack": 2865
+        },
+        {
+            "name": "Katana",
+            "attack": 3040
+        },
+        {
+            "name": "Longsword",
+            "attack": 3200
+        },
+        {
+            "name": "Quarterstaff",
+            "attack": 125
+        },
+        {
+            "name": "Club",
+            "attack": 515
+        },
+        {
+            "name": "Mace",
+            "attack": 1075
+        },
+        {
+            "name": "War Hammer",
+            "attack": 1580
+        },
+        {
+            "name": "Flail",
+            "attack": 2050
+        },
+        {
+            "name": "Morning Star",
+            "attack": 2450
+        },
+        {
+            "name": "Maul",
+            "attack": 2900
+        },
+        {
+            "name": "Pike",
+            "attack": 325
+        },
+        {
+            "name": "Pitchfork",
+            "attack": 400
+        },
+        {
+            "name": "Lance",
+            "attack": 1000
+        },
+        {
+            "name": "Swordstaff",
+            "attack": 1100
+        },
+        {
+            "name": "Glaive",
+            "attack": 1505
+        },
+        {
+            "name": "Partisan",
+            "attack": 1800
+        },
+        {
+            "name": "Guisarme",
+            "attack": 2200
+        },
+        {
+            "name": "scythe",
+            "attack": 2770
+        },
+        {
+            "name": "Voulge",
+            "attack": 2925
+        },
+        {
+            "name": "ranseur",
+            "attack": 3100
+        },
+        {
+            "name": "Halberd",
+            "attack": 3500
+        },
+        {
+            "name": "Tomahawk",
+            "attack": 225
+        },
+        {
+            "name": "Ono",
+            "attack": 750
+        },
+        {
+            "name": "Battle Axe",
+            "attack": 2800
+        },
+        {
+            "name": "Sling",
+            "attack": 115
+        },
+        {
+            "name": "bow",
+            "attack": 900
+        },
+        {
+            "name": "Longbow",
+            "attack": 1500
+        },
+        {
+            "name": "Crossbow",
+            "attack": 2500
+        },
+        {
+            "name": "Shell Chain",
+            "attack": 1000
+        },
+        {
+            "name": "Soul Sword",
+            "attack": 2200
+        },
+        {
+            "name": "Obsidian Staff",
+            "attack": 3500
+        },
+        {
+            "name": "Knock-Down Hammer",
+            "attack": 4850
+        },
+        {
+            "name": "Axe of Terror",
+            "attack": 6200
+        }
+    ]
+}

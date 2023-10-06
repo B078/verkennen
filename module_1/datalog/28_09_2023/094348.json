@@ -1,0 +1,78 @@
+{
+    "query": "select * from teachers\n",
+    "resultcount": 6,
+    "result": [
+        {
+            "id": 1,
+            "firstName": "Rudi",
+            "lastName": "Pelt",
+            "infix": "van",
+            "code": "RVP",
+            "phone": "0648177313",
+            "email": "rvanpelt@davinci.nl",
+            "primaryCourse": 4,
+            "secondaryCourse": 3,
+            "primaryLocation": "LPP"
+        },
+        {
+            "id": 2,
+            "firstName": "Jouke",
+            "lastName": "Corbijn",
+            "infix": null,
+            "code": "JJC",
+            "phone": "0643287580",
+            "email": "jcorbijn@davinci.nl",
+            "primaryCourse": 2,
+            "secondaryCourse": 5,
+            "primaryLocation": "LPP"
+        },
+        {
+            "id": 3,
+            "firstName": "Jeroen",
+            "lastName": "Slemmer",
+            "infix": null,
+            "code": "SLR",
+            "phone": "0652456626",
+            "email": "jslemmer@davinci.nl",
+            "primaryCourse": 2,
+            "secondaryCourse": 5,
+            "primaryLocation": "LPP"
+        },
+        {
+            "id": 5,
+            "firstName": "Wilfred",
+            "lastName": "Bouman",
+            "infix": null,
+            "code": "WJV",
+            "phone": "0682771107",
+            "email": "wbouman@davinci.nl",
+            "primaryCourse": 2,
+            "secondaryCourse": 5,
+            "primaryLocation": "MBW"
+        },
+        {
+            "id": 6,
+            "firstName": "Eugene",
+            "lastName": "Oorschot",
+            "infix": "van",
+            "code": "OSE",
+            "phone": "0653151762",
+            "email": "evanoorschot@davinci.nl",
+            "primaryCourse": 6,
+            "secondaryCourse": 5,
+            "primaryLocation": "LPP"
+        },
+        {
+            "id": 7,
+            "firstName": "Arjan",
+            "lastName": "Kamberg",
+            "infix": null,
+            "code": "ARC",
+            "phone": "0639268927",
+            "email": "akamberg@davinci.nl",
+            "primaryCourse": 11,
+            "secondaryCourse": 2,
+            "primaryLocation": "LPP"
+        }
+    ]
+}

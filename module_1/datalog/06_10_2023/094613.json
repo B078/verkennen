@@ -1,0 +1,31 @@
+{
+    "query": "select id,name,(select count(*) from city where region.id = city.region) as cities from region\n",
+    "resultcount": 5,
+    "result": [
+        {
+            "id": 1,
+            "name": "Gursoy Island",
+            "cities": 4
+        },
+        {
+            "id": 2,
+            "name": "Sempre",
+            "cities": 5
+        },
+        {
+            "id": 3,
+            "name": "South Groval",
+            "cities": 5
+        },
+        {
+            "id": 4,
+            "name": "North Groval",
+            "cities": 6
+        },
+        {
+            "id": 5,
+            "name": "Breach",
+            "cities": 7
+        }
+    ]
+}

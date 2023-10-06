@@ -1,0 +1,9 @@
+{
+    "query": "select sum(person) from npc",
+    "resultcount": 1,
+    "result": [
+        {
+            "sum(person)": 20855
+        }
+    ]
+}

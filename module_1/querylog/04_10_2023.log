@@ -1,0 +1,46 @@
+select * from npc; #09:24:16@rubyquest.db
+select sum(person) from npc; #09:24:40@rubyquest.db
+select *from animal; #09:24:57@rubyquest.db
+select sum(id) from animal; #09:25:10@rubyquest.db
+select * from city; #09:25:45@rubyquest.db
+select sum(id) from city; #09:26:01@rubyquest.db
+select count(id) from city; #09:27:03@rubyquest.db
+select * from city; #09:27:12@rubyquest.db
+select count(person) from npc; #09:27:41@rubyquest.db
+select count(id) from animal; #09:28:14@rubyquest.db
+select * from animal; #09:28:28@rubyquest.db
+select count(*) as aantal_schapen from animal where type = "Sheep" ;; #09:29:31@rubyquest.db
+select * from animal; #09:30:16@rubyquest.db
+select count(*) from animal where type = "Sea Snake";; #09:30:44@rubyquest.db
+select count(*) from animal where type = "Sea Snake";; #09:32:53@rubyquest.db
+select * from armor; #09:39:30@rubyquest.db
+select * from animal; #09:43:49@rubyquest.db
+select min(speed), * from animal; #09:44:12@rubyquest.db
+select min(speed) as minimale_snelheid  from animal; #09:45:23@rubyquest.db
+select max(speed) as maximale_snelheid  from animal; #09:45:59@rubyquest.db
+select * from weapon; #09:46:28@rubyquest.db
+select min(attack) as minimale_attack  from weapon; #09:46:46@rubyquest.db
+select min(attack) as minimale_attack , * from weapon; #09:46:55@rubyquest.db
+select * , min(attack) as minimale_attack  from weapon; #09:47:12@rubyquest.db
+select * from weapon; #09:47:45@rubyquest.db
+select * from weapon; #09:48:22@rubyquest.db
+select * , max(price) from weapon; #09:48:50@rubyquest.db
+select * , max(price) as maximale_prijs from weapon; #09:49:09@rubyquest.db
+select max(price) as maximale_prijs from weapon; #09:49:16@rubyquest.db
+select * from quest; #09:52:13@rubyquest.db
+select avg(experience) as gemiddelde_ervaringspunten from quest; #09:52:41@rubyquest.db
+select round(avg(experience)) as gemiddelde_ervaringspunten from quest; #09:52:56@rubyquest.db
+select * from quest; #09:54:28@rubyquest.db
+select sum(gold) AS totaal_goud_niet_opgepakte_quests
+from quest
+where holder = 0;
+; #09:56:23@rubyquest.db
+select * from weapon; #10:00:06@rubyquest.db
+select * from weapon ; #10:00:26@rubyquest.db
+select * from weapon where name like "%sword%"; #10:04:36@rubyquest.db
+select 
+count(*) as aantal_Wapens,
+avg(price) as gemiddelde_prijs,
+avg(attack) as gemiddelde_kracht
+ from weapon
+where name like "%sword%"; #10:06:28@rubyquest.db

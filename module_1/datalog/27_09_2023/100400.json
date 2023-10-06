@@ -1,0 +1,126 @@
+{
+    "query": "select * from animal where defense = 2",
+    "resultcount": 15,
+    "result": [
+        {
+            "id": 54,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 55,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 56,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 57,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 58,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 60,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 61,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 62,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 64,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 65,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 66,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 67,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 68,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 69,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 70,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+select * from person where max_health > 1400; #09:26:03@rubyquest.db
+update person 
+set agility = 200 
+where id = 4;; #09:32:05@rubyquest.db
+select * from person where id = 4; #09:32:38@rubyquest.db
+select * from person; #09:32:57@rubyquest.db
+update person 
+set weapon = 50000
+where id = 1;
+; #09:33:27@rubyquest.db
+select * from person
+; #09:33:43@rubyquest.db
+select * from person where id = 1
+; #09:33:58@rubyquest.db
+select * from hero where not charisma = 90
+; #09:40:34@rubyquest.db
+select * from teachers
+; #09:43:48@dvc-sd.db
+select * from teachers where infix is null
+; #09:43:59@dvc-sd.db
+select * from teachers where infix = null
+; #09:44:56@dvc-sd.db
+select * from teachers where infix isnull
+; #09:45:00@dvc-sd.db
+select * from animal; #09:50:55@rubyquest.db
+select distinct health from creature; #09:52:42@rubyquest.db
+select distinct health from creature order by health; #09:52:53@rubyquest.db
+select * from armor; #09:53:10@rubyquest.db
+select distinct price  from armor; #09:53:25@rubyquest.db
+select distinct price  from armor order by price; #09:53:33@rubyquest.db
+select *  from creature limit 10; #09:57:26@rubyquest.db
+select *  from creature limit 2; #09:57:45@rubyquest.db
+select *  from creature limit 69; #09:57:50@rubyquest.db
+select *  from creature limit 6436; #09:57:53@rubyquest.db
+select *  from creature limit 50; #09:58:04@rubyquest.db
+select *  from creature where gold; #09:59:49@rubyquest.db
+select *  from creature; #10:00:06@rubyquest.db
+select *  from creature; #10:00:08@rubyquest.db
+ select * from creature where name ; #10:00:54@rubyquest.db
+ select * from creature; #10:01:01@rubyquest.db
+ select * from creature; #10:01:28@rubyquest.db
+ select name from creature; #10:02:28@rubyquest.db
+ select id, name  from creature; #10:02:47@rubyquest.db

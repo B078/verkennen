@@ -1,0 +1,19 @@
+{
+    "query": "select * from person where id = 7",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 7,
+            "name": "Shrek",
+            "sex": "m",
+            "max_health": 1360,
+            "attack": 70,
+            "defense": 68,
+            "agility": 30,
+            "experience": 14720,
+            "gold": 467,
+            "weapon": 29,
+            "armor": 4
+        }
+    ]
+}

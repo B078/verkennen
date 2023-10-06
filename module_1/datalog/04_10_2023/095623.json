@@ -1,0 +1,9 @@
+{
+    "query": "select sum(gold) AS totaal_goud_niet_opgepakte_quests\nfrom quest\nwhere holder = 0;\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "totaal_goud_niet_opgepakte_quests": 61431
+        }
+    ]
+}

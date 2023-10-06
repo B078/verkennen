@@ -1,0 +1,1056 @@
+{
+    "query": "Select * from animal \nleft join city on animal.id = city.id\n",
+    "resultcount": 105,
+    "result": [
+        {
+            "id": 1,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Knael",
+            "region": 4
+        },
+        {
+            "id": 2,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Troy",
+            "region": 4
+        },
+        {
+            "id": 3,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Pacifa",
+            "region": 4
+        },
+        {
+            "id": 4,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Onker",
+            "region": 4
+        },
+        {
+            "id": 5,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Quiro",
+            "region": 4
+        },
+        {
+            "id": 6,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Antsor",
+            "region": 4
+        },
+        {
+            "id": 7,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 1,
+            "owner": 2,
+            "name": "Harbor",
+            "region": 3
+        },
+        {
+            "id": 8,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Montse",
+            "region": 3
+        },
+        {
+            "id": 9,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 5,
+            "loyalty": 2,
+            "owner": 7,
+            "name": "Laeks",
+            "region": 3
+        },
+        {
+            "id": 10,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Vermon",
+            "region": 3
+        },
+        {
+            "id": 11,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Nordberg",
+            "region": 3
+        },
+        {
+            "id": 12,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Charcol",
+            "region": 5
+        },
+        {
+            "id": 13,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Droins",
+            "region": 5
+        },
+        {
+            "id": 14,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Mordor",
+            "region": 5
+        },
+        {
+            "id": 15,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Unterdages",
+            "region": 5
+        },
+        {
+            "id": 16,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Drakegor",
+            "region": 5
+        },
+        {
+            "id": 17,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Xantr",
+            "region": 5
+        },
+        {
+            "id": 18,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Yester",
+            "region": 5
+        },
+        {
+            "id": 19,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Tomparf",
+            "region": 1
+        },
+        {
+            "id": 20,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Preqeu",
+            "region": 1
+        },
+        {
+            "id": 21,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Hansora",
+            "region": 1
+        },
+        {
+            "id": 22,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Ismir",
+            "region": 1
+        },
+        {
+            "id": 23,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Sempre City",
+            "region": 2
+        },
+        {
+            "id": 24,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Nayak",
+            "region": 2
+        },
+        {
+            "id": 25,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Umprivaklo",
+            "region": 2
+        },
+        {
+            "id": 26,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Fjitsur",
+            "region": 2
+        },
+        {
+            "id": 27,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0,
+            "name": "Soyaki",
+            "region": 2
+        },
+        {
+            "id": null,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 1,
+            "owner": 10,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Wolf",
+            "speed": 7,
+            "defense": 6,
+            "loyalty": 4,
+            "owner": 9,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 9,
+            "loyalty": 3,
+            "owner": 3,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Eagle",
+            "speed": 9,
+            "defense": 3,
+            "loyalty": 9,
+            "owner": 1,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 3,
+            "loyalty": 6,
+            "owner": 4,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Eagle",
+            "speed": 8,
+            "defense": 2,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Tiger",
+            "speed": 10,
+            "defense": 9,
+            "loyalty": 3,
+            "owner": 8,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Sea Snake",
+            "speed": 10,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Sea Snake",
+            "speed": 10,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Sea Snake",
+            "speed": 10,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Sea Snake",
+            "speed": 10,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Sea Snake",
+            "speed": 10,
+            "defense": 8,
+            "loyalty": 10,
+            "owner": 2,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Sea Snake",
+            "speed": 10,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 1,
+            "owner": 5,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 8,
+            "loyalty": 3,
+            "owner": 6,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        },
+        {
+            "id": null,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0,
+            "name": null,
+            "region": null
+        }
+    ]
+}

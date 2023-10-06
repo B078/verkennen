@@ -1,0 +1,120 @@
+{
+    "query": "select * from weapon where price < 300\n",
+    "resultcount": 19,
+    "result": [
+        {
+            "id": 1,
+            "name": "Dirk",
+            "price": 10,
+            "attack": 100
+        },
+        {
+            "id": 2,
+            "name": "Poniard",
+            "price": 15,
+            "attack": 150
+        },
+        {
+            "id": 3,
+            "name": "Rondel",
+            "price": 28,
+            "attack": 200
+        },
+        {
+            "id": 4,
+            "name": "Dagger",
+            "price": 50,
+            "attack": 250
+        },
+        {
+            "id": 5,
+            "name": "Anelace",
+            "price": 70,
+            "attack": 300
+        },
+        {
+            "id": 6,
+            "name": "Baselard",
+            "price": 110,
+            "attack": 425
+        },
+        {
+            "id": 7,
+            "name": "Cinquedea",
+            "price": 130,
+            "attack": 450
+        },
+        {
+            "id": 8,
+            "name": "Stiletto",
+            "price": 150,
+            "attack": 500
+        },
+        {
+            "id": 23,
+            "name": "Quarterstaff",
+            "price": 12,
+            "attack": 125
+        },
+        {
+            "id": 24,
+            "name": "Club",
+            "price": 200,
+            "attack": 515
+        },
+        {
+            "id": 30,
+            "name": "Pike",
+            "price": 100,
+            "attack": 325
+        },
+        {
+            "id": 31,
+            "name": "Pitchfork",
+            "price": 150,
+            "attack": 400
+        },
+        {
+            "id": 41,
+            "name": "Tomahawk",
+            "price": 210,
+            "attack": 225
+        },
+        {
+            "id": 44,
+            "name": "Sling",
+            "price": 15,
+            "attack": 115
+        },
+        {
+            "id": 48,
+            "name": "Shell Chain",
+            "price": 0,
+            "attack": 1000
+        },
+        {
+            "id": 49,
+            "name": "Soul Sword",
+            "price": 0,
+            "attack": 2200
+        },
+        {
+            "id": 50,
+            "name": "Obsidian Staff",
+            "price": 0,
+            "attack": 3500
+        },
+        {
+            "id": 51,
+            "name": "Knock-Down Hammer",
+            "price": 0,
+            "attack": 4850
+        },
+        {
+            "id": 52,
+            "name": "Axe of Terror",
+            "price": 0,
+            "attack": 6200
+        }
+    ]
+}

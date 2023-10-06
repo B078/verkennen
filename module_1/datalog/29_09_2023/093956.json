@@ -1,0 +1,84 @@
+{
+    "query": "select * from person where name like \"%ran%\"\n\n",
+    "resultcount": 6,
+    "result": [
+        {
+            "id": 22,
+            "name": "Polran",
+            "sex": "m",
+            "max_health": 250,
+            "attack": 10,
+            "defense": 10,
+            "agility": 10,
+            "experience": 0,
+            "gold": 0,
+            "weapon": 1,
+            "armor": 1
+        },
+        {
+            "id": 55,
+            "name": "Ris'ran",
+            "sex": "m",
+            "max_health": 250,
+            "attack": 10,
+            "defense": 10,
+            "agility": 10,
+            "experience": 0,
+            "gold": 0,
+            "weapon": 1,
+            "armor": 1
+        },
+        {
+            "id": 60,
+            "name": "Ach'ran",
+            "sex": "m",
+            "max_health": 250,
+            "attack": 10,
+            "defense": 10,
+            "agility": 10,
+            "experience": 0,
+            "gold": 0,
+            "weapon": 1,
+            "armor": 1
+        },
+        {
+            "id": 96,
+            "name": "Samran",
+            "sex": "m",
+            "max_health": 250,
+            "attack": 10,
+            "defense": 10,
+            "agility": 10,
+            "experience": 0,
+            "gold": 0,
+            "weapon": 1,
+            "armor": 1
+        },
+        {
+            "id": 133,
+            "name": "Raninasam",
+            "sex": "m",
+            "max_health": 250,
+            "attack": 10,
+            "defense": 10,
+            "agility": 10,
+            "experience": 0,
+            "gold": 0,
+            "weapon": 1,
+            "armor": 1
+        },
+        {
+            "id": 201,
+            "name": "Ranexi",
+            "sex": "m",
+            "max_health": 250,
+            "attack": 10,
+            "defense": 10,
+            "agility": 10,
+            "experience": 0,
+            "gold": 0,
+            "weapon": 1,
+            "armor": 1
+        }
+    ]
+}

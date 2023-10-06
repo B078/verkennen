@@ -1,0 +1,36 @@
+{
+    "query": "select * from weapon where name like \"%sword%\"",
+    "resultcount": 5,
+    "result": [
+        {
+            "id": 11,
+            "name": "Shortsword",
+            "price": 300,
+            "attack": 700
+        },
+        {
+            "id": 19,
+            "name": "Broadsword",
+            "price": 1345,
+            "attack": 2545
+        },
+        {
+            "id": 22,
+            "name": "Longsword",
+            "price": 2200,
+            "attack": 3200
+        },
+        {
+            "id": 33,
+            "name": "Swordstaff",
+            "price": 575,
+            "attack": 1100
+        },
+        {
+            "id": 49,
+            "name": "Soul Sword",
+            "price": 0,
+            "attack": 2200
+        }
+    ]
+}

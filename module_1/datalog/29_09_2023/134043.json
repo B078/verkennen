@@ -1,0 +1,30 @@
+{
+    "query": "select * from weapon where price between 10 and 15",
+    "resultcount": 4,
+    "result": [
+        {
+            "id": 1,
+            "name": "Dirk",
+            "price": 10,
+            "attack": 100
+        },
+        {
+            "id": 2,
+            "name": "Poniard",
+            "price": 15,
+            "attack": 150
+        },
+        {
+            "id": 23,
+            "name": "Quarterstaff",
+            "price": 12,
+            "attack": 125
+        },
+        {
+            "id": 44,
+            "name": "Sling",
+            "price": 15,
+            "attack": 115
+        }
+    ]
+}

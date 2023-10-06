@@ -1,0 +1,15 @@
+{
+    "query": "select min(speed), * from animal",
+    "resultcount": 1,
+    "result": [
+        {
+            "min(speed)": 3,
+            "id": 1,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 0,
+            "owner": 0
+        }
+    ]
+}

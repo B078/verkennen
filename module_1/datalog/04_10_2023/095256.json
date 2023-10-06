@@ -1,0 +1,9 @@
+{
+    "query": "select round(avg(experience)) as gemiddelde_ervaringspunten from quest",
+    "resultcount": 1,
+    "result": [
+        {
+            "gemiddelde_ervaringspunten": 1939.0
+        }
+    ]
+}

@@ -1,0 +1,190 @@
+{
+    "query": "select * from animal where defense between 7 and 9",
+    "resultcount": 23,
+    "result": [
+        {
+            "id": 40,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 41,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 42,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 43,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 44,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 45,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 9,
+            "loyalty": 3,
+            "owner": 3
+        },
+        {
+            "id": 46,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 47,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 48,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 49,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 50,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 51,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 52,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 53,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 71,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 72,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 73,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 74,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 75,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 76,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 77,
+            "type": "Tiger",
+            "speed": 10,
+            "defense": 9,
+            "loyalty": 3,
+            "owner": 8
+        },
+        {
+            "id": 83,
+            "type": "Sea Snake",
+            "speed": 10,
+            "defense": 8,
+            "loyalty": 10,
+            "owner": 2
+        },
+        {
+            "id": 94,
+            "type": "Giant Rat",
+            "speed": 6,
+            "defense": 8,
+            "loyalty": 3,
+            "owner": 6
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "query": "select * from person where id = 1\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 1,
+            "name": "Konan",
+            "sex": "m",
+            "max_health": 1235,
+            "attack": 120,
+            "defense": 85,
+            "agility": 50,
+            "experience": 3652,
+            "gold": 1850,
+            "weapon": 50000,
+            "armor": 4
+        }
+    ]
+}
