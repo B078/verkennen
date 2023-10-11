@@ -1,0 +1,24 @@
+{
+    "query": "select * from npc,person,city\nwhere npc.person = person.id\nand person.name = \"Mukovo\"\nand npc.city = city.id",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 15,
+            "health": 250,
+            "profession": "Tailor",
+            "city": "15",
+            "person": 116,
+            "name": "Unterdages",
+            "sex": "m",
+            "max_health": 250,
+            "attack": 10,
+            "defense": 10,
+            "agility": 10,
+            "experience": 0,
+            "gold": 0,
+            "weapon": 1,
+            "armor": 1,
+            "region": 5
+        }
+    ]
+}

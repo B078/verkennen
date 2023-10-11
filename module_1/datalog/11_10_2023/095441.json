@@ -1,0 +1,48 @@
+{
+    "query": "select * from region,city where region.name = \"Breach\" and city.region = region.id",
+    "resultcount": 7,
+    "result": [
+        {
+            "id": 12,
+            "name": "Charcol",
+            "holder": 12,
+            "region": 5
+        },
+        {
+            "id": 13,
+            "name": "Droins",
+            "holder": 12,
+            "region": 5
+        },
+        {
+            "id": 14,
+            "name": "Mordor",
+            "holder": 12,
+            "region": 5
+        },
+        {
+            "id": 15,
+            "name": "Unterdages",
+            "holder": 12,
+            "region": 5
+        },
+        {
+            "id": 16,
+            "name": "Drakegor",
+            "holder": 12,
+            "region": 5
+        },
+        {
+            "id": 17,
+            "name": "Xantr",
+            "holder": 12,
+            "region": 5
+        },
+        {
+            "id": 18,
+            "name": "Yester",
+            "holder": 12,
+            "region": 5
+        }
+    ]
+}

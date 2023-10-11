@@ -1,0 +1,42 @@
+{
+    "query": "select * from city , region\nwhere region.id = city.region \nand region.name = \"North Groval\"\n",
+    "resultcount": 6,
+    "result": [
+        {
+            "id": 4,
+            "name": "North Groval",
+            "region": 4,
+            "holder": 11
+        },
+        {
+            "id": 4,
+            "name": "North Groval",
+            "region": 4,
+            "holder": 11
+        },
+        {
+            "id": 4,
+            "name": "North Groval",
+            "region": 4,
+            "holder": 11
+        },
+        {
+            "id": 4,
+            "name": "North Groval",
+            "region": 4,
+            "holder": 11
+        },
+        {
+            "id": 4,
+            "name": "North Groval",
+            "region": 4,
+            "holder": 11
+        },
+        {
+            "id": 4,
+            "name": "North Groval",
+            "region": 4,
+            "holder": 11
+        }
+    ]
+}

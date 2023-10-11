@@ -1,0 +1,41 @@
+{
+    "query": "select * from city where region = 5",
+    "resultcount": 7,
+    "result": [
+        {
+            "id": 12,
+            "name": "Charcol",
+            "region": 5
+        },
+        {
+            "id": 13,
+            "name": "Droins",
+            "region": 5
+        },
+        {
+            "id": 14,
+            "name": "Mordor",
+            "region": 5
+        },
+        {
+            "id": 15,
+            "name": "Unterdages",
+            "region": 5
+        },
+        {
+            "id": 16,
+            "name": "Drakegor",
+            "region": 5
+        },
+        {
+            "id": 17,
+            "name": "Xantr",
+            "region": 5
+        },
+        {
+            "id": 18,
+            "name": "Yester",
+            "region": 5
+        }
+    ]
+}

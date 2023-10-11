@@ -1,0 +1,56 @@
+{
+    "query": "select name, person.id, hero.person from person, hero \nwhere hero.person = person.id",
+    "resultcount": 10,
+    "result": [
+        {
+            "name": "Konan",
+            "id": 1,
+            "person": 1
+        },
+        {
+            "name": "Captain America",
+            "id": 2,
+            "person": 2
+        },
+        {
+            "name": "Mega Mindy",
+            "id": 3,
+            "person": 3
+        },
+        {
+            "name": "Catwoman",
+            "id": 4,
+            "person": 4
+        },
+        {
+            "name": "Buzz Lightyear",
+            "id": 5,
+            "person": 5
+        },
+        {
+            "name": "Mario",
+            "id": 6,
+            "person": 6
+        },
+        {
+            "name": "Shrek",
+            "id": 7,
+            "person": 7
+        },
+        {
+            "name": "Dante",
+            "id": 8,
+            "person": 8
+        },
+        {
+            "name": "Zelda",
+            "id": 9,
+            "person": 9
+        },
+        {
+            "name": "Super MeatBoy",
+            "id": 10,
+            "person": 10
+        }
+    ]
+}

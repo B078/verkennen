@@ -1,0 +1,31 @@
+{
+    "query": "select * from region",
+    "resultcount": 5,
+    "result": [
+        {
+            "id": 1,
+            "name": "Gursoy Island",
+            "holder": 14
+        },
+        {
+            "id": 2,
+            "name": "Sempre",
+            "holder": 13
+        },
+        {
+            "id": 3,
+            "name": "South Groval",
+            "holder": 15
+        },
+        {
+            "id": 4,
+            "name": "North Groval",
+            "holder": 11
+        },
+        {
+            "id": 5,
+            "name": "Breach",
+            "holder": 12
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "query": "select person.name as person_name, city.name from npc,person,city\nwhere npc.person = person.id\nand person.name = \"Mukovo\"\nand npc.city = city.id",
+    "resultcount": 1,
+    "result": [
+        {
+            "person_name": "Mukovo",
+            "name": "Unterdages"
+        }
+    ]
+}

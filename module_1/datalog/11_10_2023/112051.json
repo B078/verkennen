@@ -1,0 +1,9 @@
+{
+    "query": "select count(*) from city , region\nwhere region.id = city.region \nand region.name = \"North Groval\"\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "count(*)": 6
+        }
+    ]
+}
