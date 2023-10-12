@@ -1,0 +1,16 @@
+{
+    "query": "select * from Tenten",
+    "resultcount": 2,
+    "result": [
+        {
+            "id": 1,
+            "name": "Example Tent",
+            "description": "A description of the tent"
+        },
+        {
+            "id": 2,
+            "name": "Second Tent",
+            "description": "Another description"
+        }
+    ]
+}

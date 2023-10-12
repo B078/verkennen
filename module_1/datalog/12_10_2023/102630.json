@@ -1,0 +1,22 @@
+{
+    "query": "select * from nederlandse_krijgsmacht",
+    "resultcount": 2,
+    "result": [
+        {
+            "id": 1,
+            "naam": "luchtmobiele brigade",
+            "onderdeel": "landmacht",
+            "hoeveelheid": "3000",
+            "locatie": "orschoit",
+            "oprichtingsdatum": 1992
+        },
+        {
+            "id": 2,
+            "naam": "Gemechaniseerde Brigade",
+            "onderdeel": "landmacht",
+            "hoeveelheid": "3000",
+            "locatie": "havelte",
+            "oprichtingsdatum": 1949
+        }
+    ]
+}

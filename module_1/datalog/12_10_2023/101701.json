@@ -1,0 +1,14 @@
+{
+    "query": "select * from nederlandse_krijgsmacht",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 2,
+            "naam": null,
+            "onderdeel": null,
+            "locatie": null,
+            "oprichtingsdatum": 1992,
+            "hoeveelheid": 3000
+        }
+    ]
+}

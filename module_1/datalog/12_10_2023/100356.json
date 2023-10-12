@@ -1,0 +1,5 @@
+{
+    "query": "select * from tijdelijke_table\n",
+    "resultcount": 0,
+    "result": []
+}

@@ -1,0 +1,11 @@
+{
+    "query": "select * from Tenten",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 1,
+            "name": "Example Tent",
+            "description": "A description of the tent"
+        }
+    ]
+}

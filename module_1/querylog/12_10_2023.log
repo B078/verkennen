@@ -1,0 +1,105 @@
+CREATE TABLE platns (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    description TEXT
+);
+; #09:29:16@verschoor.db
+CREATE TABLE plants (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    description TEXT
+);
+; #09:31:28@verschoor.db
+CREATE TABLE krijgsmacht (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    description TEXT
+);
+; #09:31:38@verschoor.db
+DROP TABLE IF EXISTS platns;
+; #09:32:19@verschoor.db
+CREATE TABLE Tenten (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    description TEXT
+);
+; #09:47:51@verschoor.db
+INSERT INTO tenten (name, description) 
+VALUES ('Example Tent', 'A description of the tent');
+; #09:50:40@verschoor.db
+select * from Tenten; #09:50:53@verschoor.db
+INSERT INTO tenten (name, description) VALUES ('Second Tent', 'Another description');; #09:51:37@verschoor.db
+select * from Tenten; #09:51:46@verschoor.db
+CREATE TABLE nederlandse_krijgsmacht (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    naam TEXT,
+    onderdeel TEXT,
+    locatie TEXT,
+    oprichtingsdatum DATE
+);
+; #09:54:25@verschoor.db
+select * from nederlandse_krijgsmacht; #09:54:40@verschoor.db
+DROP TABLE IF EXISTS krijgsmacht;; #09:55:13@verschoor.db
+select * from nederlandse_krijgsmacht; #09:59:38@verschoor.db
+ALTER TABLE nederlandse_krijgsmacht
+ADD COLUMN hoeveelheid INTEGER;
+
+; #10:00:19@verschoor.db
+select * from nederlandse_krijgsmacht; #10:00:33@verschoor.db
+CREATE TABLE tijdelijke_table (
+    id INT AUTO_INCREMENT,
+    name VARCHAR(255),
+    description TEXT
+);
+; #10:02:36@verschoor.db
+DROP TABLE IF EXISTS tijdelijke_table; #10:03:14@verschoor.db
+CREATE TABLE tijdelijke_table (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    description TEXT
+);
+; #10:03:33@verschoor.db
+select * from tijdelijke_table
+; #10:03:56@verschoor.db
+select * from nederlandse_krijgsmacht; #10:04:58@verschoor.db
+INSERT INTO nederlandse_krijgsmacht (naam, onderdeel, locatie)
+VALUES ("luchtmobiele brigade", "landmacht", 'orschoit');
+
+; #10:13:11@verschoor.db
+select * from nederlandse_krijgsmacht; #10:13:29@verschoor.db
+INSERT INTO nederlandse_krijgsmacht (oprichtingsdatum, hoeveelheid)
+VALUES (1992, 3000);
+
+; #10:16:00@verschoor.db
+select * from nederlandse_krijgsmacht; #10:16:13@verschoor.db
+DELETE FROM Nederlandse_Krijgsmacht
+WHERE ID = 1;
+; #10:16:48@verschoor.db
+select * from nederlandse_krijgsmacht; #10:17:01@verschoor.db
+DELETE FROM Nederlandse_Krijgsmacht
+WHERE ID = 2;
+; #10:17:20@verschoor.db
+DROP TABLE IF EXISTS nederlandse_krijgsmacht;; #10:18:38@verschoor.db
+CREATE TABLE nederlandse_krijgsmacht (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    naam TEXT,
+    onderdeel TEXT,
+    hoeveelheid TEXT,
+    locatie TEXT,
+    oprichtingsdatum DATE
+);; #10:19:28@verschoor.db
+select * from nederlandse_krijgsmacht; #10:19:39@verschoor.db
+INSERT INTO nederlandse_krijgsmacht (naam, onderdeel, hoeveelheid, locatie, oprichtingsdatum)
+VALUES ("luchtmobiele brigade", "landmacht", 3000,  'orschoit', 1992);; #10:20:39@verschoor.db
+select * from nederlandse_krijgsmacht; #10:20:52@verschoor.db
+INSERT INTO nederlandse_krijgsmacht (naam, onderdeel, hoeveelheid, locatie, oprichtingsdatum)
+VALUES ("Gemechaniseerde Brigade", "landmacht", 3000, 'havelte', 1949);; #10:23:43@verschoor.db
+select * from nederlandse_krijgsmacht; #10:26:30@verschoor.db
+INSERT INTO nederlandse_krijgsmacht (naam, onderdeel, hoeveelheid, locatie, oprichtingsdatum)
+ VALUES
+    ("lichte brigade","landmacht",3000,'orschoit',1949),
+    ("Korps Nationale Reserve","landmacht",3000,'assen','1914'),
+    ("1 German-Netherlands Corps", "landmacht",60000,'Münster', 1995),
+  ("Defensie Grondgebonden Luchtverdedigingscommando","landmacht",850,'best',2012);
+; #11:03:03@verschoor.db
+select * from nederlandse_krijgsmacht; #11:03:38@verschoor.db

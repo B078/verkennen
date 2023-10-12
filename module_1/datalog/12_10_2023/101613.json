@@ -1,0 +1,22 @@
+{
+    "query": "select * from nederlandse_krijgsmacht",
+    "resultcount": 2,
+    "result": [
+        {
+            "id": 1,
+            "naam": "luchtmobiele brigade",
+            "onderdeel": "landmacht",
+            "locatie": "orschoit",
+            "oprichtingsdatum": null,
+            "hoeveelheid": null
+        },
+        {
+            "id": 2,
+            "naam": null,
+            "onderdeel": null,
+            "locatie": null,
+            "oprichtingsdatum": 1992,
+            "hoeveelheid": 3000
+        }
+    ]
+}
