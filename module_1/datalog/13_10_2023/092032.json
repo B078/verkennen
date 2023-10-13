@@ -1,0 +1,62 @@
+{
+    "query": "select * from nederlandse_krijgsmacht",
+    "resultcount": 7,
+    "result": [
+        {
+            "id": 1,
+            "naam": "luchtmobiele brigade",
+            "onderdeel": "landmacht",
+            "hoeveelheid": "3000",
+            "locatie": "orschoit",
+            "oprichtingsdatum": 1992
+        },
+        {
+            "id": 2,
+            "naam": "Gemechaniseerde Brigade",
+            "onderdeel": "landmacht",
+            "hoeveelheid": "3000",
+            "locatie": "havelte",
+            "oprichtingsdatum": 1949
+        },
+        {
+            "id": 3,
+            "naam": "lichte brigade",
+            "onderdeel": "landmacht",
+            "hoeveelheid": "3000",
+            "locatie": "orschoit",
+            "oprichtingsdatum": 1949
+        },
+        {
+            "id": 4,
+            "naam": "Korps Nationale Reserve",
+            "onderdeel": "landmacht",
+            "hoeveelheid": "3000",
+            "locatie": "assen",
+            "oprichtingsdatum": 1914
+        },
+        {
+            "id": 5,
+            "naam": "1 German-Netherlands Corps",
+            "onderdeel": "landmacht",
+            "hoeveelheid": "60000",
+            "locatie": "M\u00fcnster",
+            "oprichtingsdatum": 1995
+        },
+        {
+            "id": 6,
+            "naam": "Defensie Grondgebonden Luchtverdedigingscommando",
+            "onderdeel": "landmacht",
+            "hoeveelheid": "850",
+            "locatie": "best",
+            "oprichtingsdatum": 2012
+        },
+        {
+            "id": 7,
+            "naam": "Korps Mariniers",
+            "onderdeel": "Koninklijke Marine",
+            "hoeveelheid": "2500",
+            "locatie": "doorn",
+            "oprichtingsdatum": 1665
+        }
+    ]
+}

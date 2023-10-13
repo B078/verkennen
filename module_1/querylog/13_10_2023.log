@@ -1,0 +1,6 @@
+select * from nederlandse_krijgsmacht
+; #09:05:56@verschoor.db
+INSERT INTO nederlandse_krijgsmacht (naam, onderdeel, hoeveelheid, locatie, oprichtingsdatum)
+VALUES ('Korps Mariniers', 'Koninklijke Marine', 2500, 'doorn', 1665);
+; #09:18:21@verschoor.db
+select * from nederlandse_krijgsmacht; #09:20:32@verschoor.db
