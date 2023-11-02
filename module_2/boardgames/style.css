@@ -1,0 +1,14 @@
+
+    #video1 {
+        margin-bottom: 20px;
+    }
+    #head-line {
+        background-color: red;
+        color: rgb(2, 2, 2); /* Optionally, you can set the text color to make it more readable on a red background */
+        padding: 20px; /* Add some padding to the section for spacing */
+        font-size: 24px;
+    }
+
+    footer {
+        text-align: center;
+    }
