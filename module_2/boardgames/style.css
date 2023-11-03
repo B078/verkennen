@@ -5,10 +5,52 @@
     #head-line {
         background-color: red;
         color: rgb(2, 2, 2); /* Optionally, you can set the text color to make it more readable on a red background */
-        padding: 20px; /* Add some padding to the section for spacing */
-        font-size: 24px;
+        padding: 15px; /* Add some padding to the section for spacing */
+    }
+    #head-line h1 {
+        font-family: Arial;
+        font-size: 45px;
     }
 
-    footer {
-        text-align: center;
+    #social-connections h2 {
+        color: rgb(200, 182, 18);
     }
+    #escape-from-screens h2 {
+        color: rgb(200, 182, 18);
+    }
+    
+    #great_board_games h2 {
+        color: rgb(200, 182, 18);
+    }
+    #great_board_games ul {
+        color: rgb(119, 197, 3);
+    }
+
+    /* style.css */
+
+/* Uitlijning van de koppen */
+h1 {
+    text-align: left; /* Centreert de tekst van de h1-elementen */
+}
+
+h2, h3 {
+    text-align: left; /* Centreert de tekst van de h2- en h3-elementen */
+}
+
+/* Uitlijning van de alinea's */
+p {
+    text-align: justify; /* Maakt de tekst in alinea's uitgelijnd aan beide zijden */
+    max-width: 10000px;
+}
+
+/* Uitlijning van de lijst met opsommingstekens */
+ul {
+    text-align: left; /* Hier wordt de lijst met opsommingstekens links uitgelijnd */
+}
+
+/* Eventuele andere aanpassingen voor de tekstuitlijning */
+
+
+footer p {
+     text-align: center;
+}
