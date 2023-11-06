@@ -1,0 +1,53 @@
+        /* Uitlijning van de koppen */
+    h1 {
+        text-align: left; /* Centreert de tekst van de h1-elementen */
+    }
+
+    h2, h3 {
+        text-align: left; /* Centreert de tekst van de h2- en h3-elementen */
+    }
+
+/* Uitlijning van de alinea's */
+    p {
+        text-align: justify; /* Maakt de tekst in alinea's uitgelijnd aan beide zijden */
+        max-width: 10000px;
+    }
+
+/* Uitlijning van de lijst met opsommingstekens */
+    ul {
+        text-align: left; /* Hier wordt de lijst met opsommingstekens links uitgelijnd */
+    }
+
+    div iframe {
+        margin-top: 30px;
+    }
+
+    #img1 {
+        border: 10px solid transparent;
+        border-image: url(border.png) 30 round;
+    }
+
+    #about h2 {
+        color: blue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+
+
+    #education ul {
+        color: turquoise;
+    }
+
+    #afgerond_modul ul {
+        color: turquoise;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 18px;
+        color: red;
+    }
+
+    
+
+
