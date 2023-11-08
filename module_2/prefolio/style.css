@@ -1,27 +1,32 @@
         /* Uitlijning van de koppen */
+    body {
+        background-color: rgb(90, 101, 170);
+    }
+    
     h1 {
-        text-align: left; /* Centreert de tekst van de h1-elementen */
+        text-align: left;
     }
 
     h2, h3 {
-        text-align: left; /* Centreert de tekst van de h2- en h3-elementen */
+        text-align: left; 
     }
 
-/* Uitlijning van de alinea's */
     p {
-        text-align: justify; /* Maakt de tekst in alinea's uitgelijnd aan beide zijden */
+        text-align: justify;
         max-width: 10000px;
+        font: 17px Arial, sans-serif;
+        color: white;
     }
 
-/* Uitlijning van de lijst met opsommingstekens */
     ul {
-        text-align: left; /* Hier wordt de lijst met opsommingstekens links uitgelijnd */
+        text-align: left;
     }
 
     div iframe {
         margin-top: 30px;
     }
-
+    
+    /*per section */
     #img1 {
         border: 10px solid transparent;
         border-image: url(border.png) 30 round;
@@ -45,18 +50,32 @@
         font-size: 25px;
     }
 
+    #education h4 {
+        font-size: large;
+    }
+
     #education ul {
+       background-color: black;
+       padding: 20px;
+       width: 10%;
         color: turquoise;
     }
 
+    #afgerond_modul h4 {
+        font-size: large;
+    }
+
     #afgerond_modul ul {
+        background-color: black;
+        padding: 20px;
+        width: 10%;
         color: turquoise;
     }
 
     footer {
         text-align: center;
         font-size: 18px;
-        color: blue;
+        color: black;
     }
 
     
