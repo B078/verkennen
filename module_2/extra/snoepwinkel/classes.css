@@ -1,0 +1,68 @@
+ /*Bodyy */
+ body {
+    background-color: black;
+ }
+ 
+ /*hoofstuk (1) */
+ #hoofstuk1 {
+    color: green;
+ }
+
+ #par1 {
+    font-weight: bold;
+    color: blue;
+ }
+
+ /*hoofstuk (2.1) */
+ #hoofstuk2_1 {
+    color: orange;
+ } 
+
+ #par2_1_1 {
+    font-weight: bold;
+    color: blue;
+ }
+
+ #par2_1_2 {
+    font-style: italic;
+    color: yellow;
+ }
+
+ p[paragraph="last"].special {
+    color: red;
+    font-family: monospace;
+ }
+
+ .unieke_par {
+    background-color: red;
+    color: yellow;
+    font-style: italic;
+ }
+
+ /*hoofstuk (2.2) */
+ #hoofdstuk2_2 {
+    color: orange;
+ }
+
+ #par2_2_1 {
+    color: blue;
+    font-weight: bold;
+ }
+
+ #par2_2_2 {
+    color: yellow;
+    font-style: italic;
+ }
+
+ p[paragraph="last"].speciale {
+    color: red;
+    font-family: monospace;
+ }
+
+ /* footer */
+
+ #footer_p {
+    color: red;
+    font-family: monospace;
+    text-decoration: underline;
+ }
