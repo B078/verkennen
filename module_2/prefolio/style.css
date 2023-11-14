@@ -1,83 +1,47 @@
-        /* Uitlijning van de koppen */
-    body {
-        background-color: rgb(90, 101, 170);
-    }
-    
-    h1 {
-        text-align: left;
-    }
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
 
-    h2, h3 {
-        text-align: left; 
-    }
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
 
-    p {
-        text-align: justify;
-        max-width: 10000px;
-        font: 17px Arial, sans-serif;
-        color: white;
-    }
+#img1 {
+    border-radius: 50%;
+}
 
-    ul {
-        text-align: left;
-    }
+section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-    div iframe {
-        margin-top: 30px;
-    }
-    
-    /*per section */
-    #img1 {
-        border: 10px solid transparent;
-        border-image: url(border.png) 30 round;
-    }
+#education h4 {
+    color: red;
+    text-decoration: underline;
+}
 
-    #about h2 {
-        color: red;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 25px;
-    }
-    
-    #why-software-developer h2 {
-        color: red;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 25px;
-    }
-        
-    #education h2 {
-        color: red;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 25px;
-    }
+#education ul {
+    color: turquoise;
+}
 
-    #education h4 {
-        font-size: large;
-    }
-
-    #education ul {
-       background-color: black;
-       padding: 20px;
-       width: 10%;
-        color: turquoise;
-    }
-
-    #afgerond_modul h4 {
-        font-size: large;
-    }
-
-    #afgerond_modul ul {
-        background-color: black;
-        padding: 20px;
-        width: 10%;
-        color: turquoise;
-    }
-
-    footer {
-        text-align: center;
-        font-size: 18px;
-        color: black;
-    }
-
-    
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
 
 
