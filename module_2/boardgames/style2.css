@@ -1,0 +1,95 @@
+body {
+   background-color: black;
+   margin: 10px;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   min-width: 850px;
+   font-family: sans-serif;
+}
+
+.container {
+   width: 100%;
+   max-width: 1200px;
+}
+
+
+.Title {
+   background-color: red;
+   color: rgb(2, 2, 2); 
+   border: 3px solid yellow;
+   border-radius: 12px;
+   padding: 10px;
+   margin-top: 10px;
+}
+
+.Title h1 {
+   color: black;
+   font-family: Arial;
+   font-size: 45px;
+   text-align: center;
+}
+
+.Title p {
+   color: black;
+   font-family: Arial;
+   font-size: 130%;
+   font-weight: bold;
+   font-style: italic;
+   text-align: center;
+}
+
+.links h2 {
+   display: inline-block;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+
+
+   a.link1:link { text-decoration: none; color: white;}
+   a.link1:visited { color: white;}
+   a.link1:hover {text-decoration: underline; color:  red;}
+   a.link1:active { color: darkred;}
+
+   a.link2:link { text-decoration: none; color:  white;}
+   a.link2:visited { color: white;}
+   a.link2:hover {text-decoration: underline; color: red;}
+   a.link2:active { color: darkred;}
+
+   a.link3:link {color: white;}
+   a.link3:visited {color: white;}
+   a.link3:hover {color: white;}
+   a.link3:active {color: white;}
+
+   #img1 {
+      width: auto;
+      height: 300px;
+
+   }
+
+.head h2 {
+   color: yellow;
+}
+
+#head1 h3, p {
+   color: white;
+}
+
+#head2 p {
+   color: white;
+}
+
+#head2 ol {
+   color: turquoise;
+}
+
+
+.footer {
+   text-align: center;
+   padding: 10px;
+   background-color: #333;
+   color: white;
+   position: fixed;
+   width: 85%;
+   bottom: 0;
+}

@@ -13,20 +13,10 @@
         max-width: 1200px;
     }
         
-    h1 {
+    h1 ,h2, h3 {
         text-align: left;
         color: white;
     }
-    h2{
-        text-align: left;
-        color: white;
-    }
-
-    h3 {
-        text-align: left;
-        color: white;
-    }
-
 
     p {
         text-align: justify; 
@@ -47,9 +37,9 @@
         text-align: center;
     }
 
- /* alle ids */
+ /*alles class */
    
-    #head-line {
+    .head-line {
         background-color: red;
         color: rgb(2, 2, 2); 
         border: 3px solid yellow;
@@ -57,14 +47,14 @@
         padding: 10px;
         margin-top: 10px;
     }
-    #head-line h1 {
+    .head-line h1 {
         color: black;
         font-family: Arial;
         font-size: 45px;
         text-align: center;
     }
 
-    #head-line p {
+    .head-line p {
         color: black;
         font-family: Arial;
         font-size: 130%;
@@ -73,25 +63,48 @@
         text-align: center;
     }
 
-    #social-connections h2 {
+    .social-connections h2 {
         color: rgb(200, 182, 18);
         margin-bottom: 10px;
     }
-    #escape-from-screens h2 {
+    .escape-from-screens h2 {
         color: rgb(200, 182, 18);
         margin-bottom: 10px;
     }
 
-    #video1 {
+    .video1 {
         margin-bottom: 20px;
     }
 
-    #great_board_games h2 {
+    .great_board_games h2 {
         color: rgb(200, 182, 18);
         margin-bottom: 10px;
     }
-    #great_board_games ul {
+    .great_board_games ul {
         color: rgb(119, 197, 3);
+    }
+
+
+    .links h2 {
+        display: inline-block;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    a:link {
+        color: white;
+    }
+
+    a:visited {
+        color: white;
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    a:active {
+        color: darkred;
     }
 
     
