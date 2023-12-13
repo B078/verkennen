@@ -1,0 +1,52 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  min-width: 850px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.kopstuk {
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 15px;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.kopstuk h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Me {
+  width: 75%;
+  float: left;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding-bottom: 50px;
+  margin-top: 10px;
+  }
+
+.modules {
+  width: 25%;
+  float: right;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
