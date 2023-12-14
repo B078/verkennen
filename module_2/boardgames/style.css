@@ -93,6 +93,7 @@
 
     a:link {
         color: white;
+        text-decoration: none;
     }
 
     a:visited {
@@ -101,10 +102,20 @@
 
     a:hover {
         color: red;
+        text-decoration: underline;
     }
 
     a:active {
         color: darkred;
     }
 
+
+    .footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        width: 100%;
+        bottom: 0;
+     }
     
