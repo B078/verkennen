@@ -1,0 +1,34 @@
+<!-- haal de fouten uit de script -->
+<!doctype html>
+<html>
+<head>
+  <title>Ronde stuivers</title>
+</head>
+<body>
+  Hoogte: <input type="number" step="0.01" id="input_height" ><br>
+  Diameter: <input type="number" step="0.01" id="input_diameter" ><br>
+  <button id="calculate_button">Bereken</button>
+  <p>Cilinderinhoud:</p>
+  <p id="result"></p>
+</body>
+<script>
+/*
+  Onderstaande script moet ervoor zorgen dat als op de knop Bereken wordt geklikt de function calculate moet worden aangeroepen. Deze berekent de cilinderinhoud voor een opgegeven hoogte en diameter van blikken.
+*/
+
+  function calculateCilinderContent(diameter, height){
+    return (diameter/2) * (diameter/2) * Math.PI;
+  }
+
+  function calculate(event){
+    let heightInput = input_height.value; 
+    let diameterInput = input_diameter.value; 
+    let height = Number(heightInput); 
+    let diameter = Number(diameterInput); // regel bevat bug
+    let content = calculateCilinderContent(diameter, height); // regel bevat bug
+    result.textContent = content.toFixed(2); 
+  }
+
+  calculate_button.addEventListener('click',calculate); // regel bevat bug
+</script>
+</html>

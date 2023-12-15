@@ -1,36 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>verschoor</title>
+  <title>New Profile</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <section class="kopstuk">
-                <h1>Welkom op mijn pagina </h1>
-                <p>op deze website maak ik voor u de beste websites</p>
-            </section>
-        </header>
+  <h1>Profile form</h1>
+  <form id="form_profile">
+    <p>
+      <label>Name: </label>
+      <input type="text" name="input_name" id="input_name" required>
+    </p>
+    <p>
+      <label>Address: </label>
+      <input type="text" name="input_address" id="input_address" required>
+    </p>
+    <p>
+      <label>Zipcode: </label>
+      <input type="text" name="input_zipcode" id="input_zipcode" required>
+    </p>
+    <p>
+      <label>City: </label>
+      <input type="text" name="input_city" id="input_city" required>
+    </p>
+    <p>
+      <label>E-mail: </label>
+      <input type="email" name="input_email" id="input_email" required>
+    </p>
+    <p>
+      <label>experience: </label>
+      <input type="number" name="input_experience" id="input_experience" required
+      min="0" max="10">
+    </p>
+    <p>
+      <label>Birth-date: </label>
+      <input type="date" name="input_birth_date" id="input_birth_date" required>
+    </p>
+    <p>
+      <label>hobby's: </label>
+      <textarea name="input_hoobys" id="input_hobbys"></textarea>
+    </p>
+    <input type="submit" id="submit_button" value="submit">
+    <input type="reset" id="reset_button" value="reset">
+  </form>
+  <div id="profile">
+    <h1>Profile</h1>
+    <p><label>Name: </label><span id="display_name"></span></p>
+    <p><label>Address: </label><span id="display_address"></span></p>
+    <p><label>Zipcode: </label><span id="display_zipcode"></span></p>
+    <p><label>City: </label><span id="display_city"></span></p>
+    <p><label>E-mail: </label><span id="display_email"></span></p>
+    <p><label>experience: </label><span id="display_experience"></span></p>
+    <p><label>Birth-date: </label><span id="display_birth_date"></span></p>
+    <p><label>hobbys: </label><span id="display_hobbys"></span></p>
+  </div>
 
-        <section class="Me">
-            <h3>over mezelf</h3>
-            <p>ik ben bjorn 16 jaar en woon on dordrecht</p>
-            <p>Dit is een regel tekst.<br>Dit is een nieuwe regel tekst.</p>
+  <script>
+    function submit(event){
+       // Controleer of alle velden zijn ingevuld
+      if (
+        !input_name.value ||
+        !input_address.value ||
+        !input_zipcode.value ||
+        !input_city.value ||
+        !input_email.value ||
+        !input_experience.value ||
+        !input_birth_date.value ||
+        !input_hobbys.value
+        ) {
+         // Toon een waarschuwing als niet alle velden zijn ingevuld
+          alert("Vul alle velden in voordat je het formulier indient.");
+        } else {
+        display_name.textContent = input_name.value;
+        display_address.textContent = input_address.value;
+        display_zipcode.textContent = input_zipcode.value;
+        display_city.textContent = input_city.value;
+        display_email.textContent = input_email.value;
+        display_experience.textContent = input_experience.value;
+        display_birth_date.textContent = input_birth_date.value;
+        display_hobbys.textContent = input_hobbys.value;
+        }
+    }
+    submit_button.addEventListener('click',submit);
 
-        </section>
+    // prevent document from default trying to really submit
+    function form_submit(event){
+      event.preventDefault();
+    }
+    form_profile.addEventListener('submit',form_submit)
 
-        <section class="modules">
-            <ul>
-                <li>html</li>
-                <li>css</li>
-                <li>Python</li>
-                <li>Javascript</li>
-            </ul>
-        </section>
 
-    </div>
+  </script>
 </body>
 </html>

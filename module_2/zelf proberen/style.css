@@ -1,52 +1,56 @@
-
-* {
-  box-sizing: border-box;
-}
-
 body {
-  background-color: white;
-  margin: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  width: 40%;
+  min-width: 350px;
+  margin: auto;
+  border: 1px solid black;
   padding: 10px;
-  display: flex;
-  justify-content: center;
-  min-width: 850px;
+}
+h1 {
+  font-size: 18px;
+}
+label {
+  display:inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+#profile, #bon{
+  font-family:'Courier New', Courier, monospace;
+  margin: 5px;
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: lightgrey;
+} 
+
+#bon span {
+  display: inline-block;
+  width: 60%;
+  text-align: right;
+  color: red;
 }
 
-.container {
-  width: 100%;
-  max-width: 1200px;
+
+#display_hobbys {
+  display: block;
+  width: 200px;
 }
 
-.kopstuk {
-  border: 2px solid black;
-  border-radius: 30px;
-  padding: 15px;
-  text-align: center;
-  background-color: white;
-  color: black;
-}
-
-.kopstuk h1 {
-  font-size: 20px;
+#submit_button {
+  padding: 5px;
+  margin-right: 10px;
+  border: 3px solid blue;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
   font-weight: bold;
 }
 
-.Me {
-  width: 75%;
-  float: left;
-  padding: 15px;
-  border: 2px solid black;
-  border-radius: 20px;
-  padding-bottom: 50px;
-  margin-top: 10px;
-  }
-
-.modules {
-  width: 25%;
-  float: right;
-  padding: 15px;
-  border: 2px solid black;
-  border-radius: 20px;
-  margin-top: 10px;
+#reset_button {
+  padding: 5px;
+  border: 3px solid blue;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
 }
-

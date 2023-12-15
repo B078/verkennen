@@ -1,0 +1,28 @@
+<!-- haal de fouten uit de script -->
+<!doctype html>
+<html>
+<head>
+  <title>Roebels</title>
+</head>
+<body>
+  Euro: <input type="number" step="0.01" id="input_euro" value="1.00"><br>
+
+  <button id="bereken">Bereken</button>
+  <p>Roebels:</p>
+  <p id="bedrag"></p>
+</body>
+<script>
+/*
+  Onderstaande script moet ervoor zorgen dat als op de knop Bereken wordt geklikt de function berekening wordt aangeroepen. Deze berekent  het bedrag in roebels.
+*/
+  const EURO_ROEBEL_KOERS = 109; // is koers = aantal roebels voor 1 euro
+  function convertRoebels(event){
+    let eurosInput = input_euro.value; // regel bevat bug
+    let euros = Number(eurosInput); // regel bevat bug
+    let roebels = euros * EURO_ROEBEL_KOERS;
+      bedrag.innerHTML = roebels;
+  }
+
+  bereken.addEventListener('click',convertRoebels); 
+</script>
+</html>

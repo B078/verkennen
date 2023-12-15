@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo</title>
+</head>
+<body>
+  Input: <input id="input" title = "Geef een getal om te vermenigvuldigen met 3 " value="0"><br>
+
+  <button id="bereken">Bereken</button>
+
+  <p id="resultaat"></p>
+
+
+  <script>
+    function maal3(getal){
+      let product3 = getal * 3;
+      return product3;
+    }
+
+
+    function berekening(event){
+      input.value = input.value || "1";
+
+      let getalString = input.value;
+      let getal = Number(getalString);
+      let product = getal * 3;
+      if (!isNaN(getal)){
+        let product = getal * 3;
+        resultaat.innerText = `het antwoord wordt: ${product}, dus!!`
+      } else {
+        resultaat.innerHTML = "ongeldige invoer";
+      }
+
+    }
+  
+    bereken.addEventListener('click',berekening);
+
+  
+  </script>
+
+  
+</body>
+</html>

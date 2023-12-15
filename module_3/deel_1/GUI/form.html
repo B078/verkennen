@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <title>base</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <h1>Base</h1>
+  <form id="form">
+    <p>
+      <label>Input: </label>
+      <input type="text" name="input" id="input">
+    </p>
+    <input type="submit" id="submit_button" value="berekenen">
+  </form>
+  <div id="result">
+    <h1>Result</h1>
+    <p><label>Detail: </label><span id="detail"></span></p>
+  </div>
+
+  <script>
+    function submit(event){
+      detail.textContent = input.value;
+    }
+    submit_button.addEventListener('click',submit);
+
+    // prevent document from default trying to really submit
+    function form_submit(event){
+      event.preventDefault();
+    }
+    form.addEventListener('submit',form_submit)
+
+  </script>
+</body>
+</html>

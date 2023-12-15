@@ -1,0 +1,29 @@
+<!-- haal de fouten uit de script -->
+<!doctype html>
+<html>
+<head>
+  <title>Ronde stuivers</title>
+</head>
+<body>
+  Bedrag: <input type="number" step="0.01" id="input_amount" value="1.00"><br>
+
+  <button id="calc">Bereken</button>
+  <p>Afgerond op stuivers:</p>
+  <p id="result_amount"></p>
+</body>
+<script>
+/*
+  Onderstaande script moet ervoor zorgen dat als op de knop Bereken wordt geklikt de function roundToCoin moet worden aangeroepen. Deze rond het bedrag af naar stuivers
+*/
+const coin = 5; // regel bevat bug
+
+  function roundToCoin(event){
+    let amountInput = input_amount.value; 
+    let amount = Number(amountInput); 
+    let rounded = Math.round(amount * 100 / coin) * coin/ 100
+    result_amount.innerHTML = rounded; // regel bevat bug
+  }
+
+  calc.addEventListener('click',roundToCoin); // regel bevat bug
+</script>
+</html>

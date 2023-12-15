@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>test</title>
+</head>
+
+<body>
+  Aantal: <input type="number" id="amount" value="1"> <span>adviesprijs €1,23 </span><br>
+  Vriendenprijs: <input type="number" step="0.01" id="price" value="1.00"><br>
+
+  <button id="bereken">Bereken</button>
+  <p>Te betalen:</p>
+  <p id="resultaat"></p>
+
+  <script>
+    const ADVIES_PRIJS = 1.23; // adviesprijs
+
+    function berekening(event) {
+      let amount = Number(document.getElementById("amount").value);
+      let priceValue = Number(document.getElementById("price").value);
+
+      if (isNaN(amount) || isNaN(priceValue)) {
+        document.getElementById("resultaat").textContent = "Ongeldige invoer";
+        return;
+      }
+
+      let total = amount * priceValue;
+      document.getElementById("resultaat").textContent = total.toFixed(2);
+    }
+
+    document.getElementById("bereken").addEventListener('click', berekening);
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+  <title>base</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <h1>Base</h1>
+  <form id="form">
+    <p>
+      <p>stokbroden</p>
+      <label>aantal: </label>
+      <input type="number" name="aantal_stokbroden" id="input_stokbroden">
+    </p>
+    <p>
+      <p>croisanten</p>
+      <label>aantal: </label>
+      <input type="number" name="aantal_croissanten" id="input_croissanten">
+    </p>
+    <input type="submit" id="submit_button" value="berekenen">
+  </form>
+  <div id="result">
+    <h1>Result</h1>
+    <p><label>Detail: </label><span id="detail"></span></p>
+  </div>
+
+  <script>
+    const PRIJS_CROISSANT = 0.49
+    const PRIJS_STOKBROOD = 1.92
+    const PRIJS_KORTINGSBON = 0.25
+
+
+    function kosten(aantal_stokbroden, aantal_croissants, PRIJS_STOKBROOD, PRIJS_CROISSANT){
+        let aantal_stokbroden = input_stokbroden.value;
+        let aantal_croissants = input_croissanten.value;
+
+        let totaal_croissants = aantal_croissants * PRIJS_CROISSANT
+        let totaal_stokbroden = aantal_stokbroden * PRIJS_STOKBROOD
+        let totaal_bedrag = totaal_croissants + totaal_stokbroden
+    }
+
+
+
+
+
+
+
+
+
+
+
+    function submit(event){
+      detail.textContent = input.value;
+    }
+    submit_button.addEventListener('click',submit);
+
+    // prevent document from default trying to really submit
+    function form_submit(event){
+      event.preventDefault();
+    }
+    form.addEventListener('submit',form_submit)
+
+  </script>
+</body>
+</html>
