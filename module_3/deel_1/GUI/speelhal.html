@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+  <title>speelhal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tickets</h1>
+  <form id="form">
+    <p>
+      <label>Persons: </label>
+      <input type="number" name="input_persons" id="input_persons" min="0" required>
+    </p>
+    <p>
+        <label>Vip-seats: </label>
+        <input type="number" name="input_vip" id="input_vip" min="0">
+      </p>
+      <p>
+        <label>Vip-minutes: </label>
+        <input type="number" name="input_vip_minutes" id="input_vip_minutes" min="0">
+      </p>
+    <input type="submit" id="submit_button" value="berekenen">
+  </form>
+  <div id="result">
+    <h1>result</h1>
+    <hr>
+    <p><label>persons: </label><span id="result_persons">0</span></p>
+    <p><label>vip_seats: </label><span id="result_vip_seats">0</span></p>
+    <p><label>vip_minutes: </label><span id="result_vip_minutes">0</span></p>
+    <hr>
+    <p><label>Total: </label><span id="result_total">0</span></p>
+  </div>
+
+  <script>
+
+    const PRIJS_TOEGANG = 12.45
+    const PERIODE_VIPSEAT = 5 // in minuten
+    const PRIJS_VIPSEAT = 0.65
+
+
+    function submit(event){
+        amount_persons = Number(input_persons.value || 0);
+        amount_vip_seats = Number(input_vip.value || 0);
+        amount_vip_min = Number(input_vip_minutes.value || 0);
+
+        let total_amount = amount_persons * PRIJS_TOEGANG;
+        let period_vipseat = Math.floor(amount_vip_min/PERIODE_VIPSEAT);
+        let minutes_vip_seats = period_vipseat * PERIODE_VIPSEAT;
+        let price_vipseat = period_vipseat * PRIJS_VIPSEAT;
+        let total_vipseat = amount_vip_seats * price_vipseat;
+        let total_price = total_amount + total_vipseat;
+
+
+        let display_persons = `${amount_persons} x ${PRIJS_TOEGANG} = ${total_amount.toFixed(2)}`;
+        let display_vip_seats = `${amount_vip_seats} x ${PRIJS_VIPSEAT} = ${price_vipseat.toFixed(2)}`;
+        let display_vip_minutes = `= ${minutes_vip_seats}`;
+        let display_total = `= ${total_price.toFixed(2)}`;
+
+        result_persons.textContent = display_persons;
+        result_vip_seats.textContent = display_vip_seats;
+        result_vip_minutes.textContent = display_vip_minutes;
+        result_total.textContent = display_total;
+       
+    
+    }
+    submit_button.addEventListener('click',submit);
+
+    // prevent document from default trying to really submit
+    function form_submit(event){
+      event.preventDefault();
+    }
+    form.addEventListener('submit',form_submit)
+
+  </script>
+</body>
+</html>
