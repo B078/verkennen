@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+  <title>ewa</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="x-icon" href="favicon/favicon_pizza.webp">
+</head>
+<body>
+  <h1>Pizza Calculator</h1>
+  <form id="form">
+    <p>
+      <label>Small Pizza's: </label>
+      <input type="number" name="input_small_pizza" id="input_small_pizza" min="0">
+    </p>
+    <p>
+        <label>Medium pizza's: </label>
+        <input type="number" name="input_medium_pizza" id="input_medium_pizza" min="0">
+      </p>
+      <p>
+        <label>Large pizza's: </label>
+        <input type="number" name="input_large_pizza" id="input_large_pizza" min="0">
+      </p>
+    <input type="submit" id="submit_button" value="berekenen">
+  </form>
+  <hr>
+  <div id="result">
+    <h1>Receipt</h1>
+    <p><label>Amount Small: </label><span id="receipt_small">0</span></p>
+    <p><label>Amount medium: </label><span id="receipt_medium">0</span></p>
+    <p><label>Amount large: </label><span id="receipt_large">0</span></p>
+    <p><label>Total: </label><span id="receipt_total">0</span></p>
+  </div>
+
+  <script>
+
+    const PRIJS_SMALL = 6.50;
+    const PRIJS_MEDIUM = 9.30;
+    const PRIJS_LARGE = 11.10;
+
+        function submit(event){
+        let amount_small = Number(input_small_pizza.value || 0);
+        let amount_medium = Number(input_medium_pizza.value || 0);
+        let amount_large = Number(input_large_pizza.value || 0);
+
+        let total_small = amount_small * PRIJS_SMALL;
+        let total_medium = amount_medium * PRIJS_MEDIUM;
+        let total_large = amount_large * PRIJS_MEDIUM;
+        let total = total_small + total_medium + total_small;
+
+        let display_small = `${amount_small} x $${PRIJS_SMALL} = $${total_small.toFixed(2)}`;
+        let display_medium = `${amount_medium} x $${PRIJS_MEDIUM} = $${total_medium.toFixed(2)}`;
+        let display_large =  `${amount_large} x $${PRIJS_LARGE} = $${total_large.toFixed(2)}`;
+        let display_total = `$${total.toFixed(2)}`;
+
+        receipt_small.textContent = display_small;
+        receipt_medium.textContent = display_medium;
+        receipt_large.textContent = display_large;
+        receipt_total.textContent = display_total;
+        }
+        submit_button.addEventListener('click',submit);
+
+        // prevent document from default trying to really submit
+        function form_submit(event){
+        event.preventDefault();
+        }
+        form.addEventListener('submit',form_submit)
+
+  </script>
+</body>
+</html>
