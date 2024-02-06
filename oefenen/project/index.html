@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portofolio</title>
+    <link rel="stylesheet" href="styling/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="images/IMG-20220809-WA0001.jpg" class="logo">
+            <img src="images/IMG-20220809-WA0001.jpg" alt="profiel" title="mijn foto">
+        </a>
+
+        <nav class="navbar" id="navbar">
+            <a href="index.html">Home</a>
+            <a href="#">about</a>
+            <a href="project.html">Projects</a>
+        </nav>
+    </header>
+    
+    <section class="scroll-text">
+        <div class="scroll-text-content">
+            <h2>Welcome to My Projects</h2>
+            <p>Check out the amazing projects I've been working on.</p>
+        </div>
+    </section>
+    
+    <script>
+        window.addEventListener('wheel', function() {
+            let scrollText = document.querySelector('.scroll-text');
+            let scrollPosition = window.scrollY;
+            let windowHeight = window.innerHeight;
+            let scrollTextPosition = scrollText.offsetTop;
+    
+            if (scrollPosition > scrollTextPosition - windowHeight / 1.2) {
+                scrollText.classList.add('show');
+            }
+        });
+    </script>
+    
+</body> 
+</html>

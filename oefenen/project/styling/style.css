@@ -9,13 +9,13 @@
 
 body {
     min-height: 100vh;
-    background: url('images/winter.jpg');
+    background-image: url('../images/winter.jpg');
     background-size: cover;
     background-position: center;
 }  
 
 .header {
-     position: fixed;
+     position: relative;
      top: 0;
      left: 0;
      width: 100%;
@@ -27,12 +27,20 @@ body {
      z-index: 100;
 } 
 
+.logo {
+    position: relative;
+    display: inline-block;
+}
+
 .logo img {
     max-height: 100px;
     border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
 }
 
-
+.logo img:hover {
+    transform: scale(1.1);
+}
 
 .navbar a {
     position: relative;
@@ -56,4 +64,31 @@ body {
 
 .navbar a:hover::before {
     width: 100%;
+}
+
+.scroll-text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.scroll-text-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.scroll-text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.scroll-text p {
+    font-size: 16px;
+}
+
+.scroll-text.show {
+    opacity: 1;
+    transform: translateY(0);
 }
