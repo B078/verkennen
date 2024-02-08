@@ -37,16 +37,21 @@
         let button = document.getElementById('button1')
         let kleurwaarde = 0
         let textwaarde = 'licht uit'
-        
+        let licht_uit = 'black'
+        let licht_aan = 'yellow'
+        let text_uit = 'licht uit'
+        let text_aan = 'licht aan'
+
         button.addEventListener('click', toggleLight)
 
         function  toggleLight(event) {
             
-            let keuzekleur = kleurwaarde=== 0 ? "yellow" : "black";
+            let keuzekleur = kleurwaarde === 0 ? licht_aan : licht_uit;
             kleurwaarde = 1 - kleurwaarde;
+            console.log(kleurwaarde)
             document.body.style.backgroundColor = keuzekleur;
             
-            let textwaarde = kleurwaarde === 1 ? "licht uit" : "licht aan"
+            let textwaarde = kleurwaarde === 1 ? text_uit : text_aan
             button.innerText = textwaarde
             
         }
